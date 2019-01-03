@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" addBOMForNewFiles="with NO BOM">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/parents" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/parents/api-member-service-impl" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/parents/api-order-service-impl" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/parents/api-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/parents/api-service/api-member-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/parents/api-service/api-order-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/parents/common" charset="UTF-8" />
+  </component>
+</project>
