@@ -20,7 +20,6 @@
         <module>springboot-swagger</module>
         <module>springcloud-stream</module>
         <module>StreamRabbitMQSelf</module>
-        <module>test</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
