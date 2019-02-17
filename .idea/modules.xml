@@ -13,12 +13,15 @@
       <module fileurl="file://$PROJECT_DIR$/config/config_client/config_client.iml" filepath="$PROJECT_DIR$/config/config_client/config_client.iml" />
       <module fileurl="file://$PROJECT_DIR$/config/config_server/config_server.iml" filepath="$PROJECT_DIR$/config/config_server/config_server.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/eureka-server/eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-stream/kafka/kafka.iml" filepath="$PROJECT_DIR$/springcloud-stream/kafka/kafka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-stream/kafka/kafka-producer/kafka-producer.iml" filepath="$PROJECT_DIR$/springcloud-stream/kafka/kafka-producer/kafka-producer.iml" />
       <module fileurl="file://$PROJECT_DIR$/parents/parents.iml" filepath="$PROJECT_DIR$/parents/parents.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-stream/rabbitmq/rabbitmq.iml" filepath="$PROJECT_DIR$/springcloud-stream/rabbitmq/rabbitmq.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-swagger/springboot-swagger.iml" filepath="$PROJECT_DIR$/springboot-swagger/springboot-swagger.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud-service.iml" filepath="$PROJECT_DIR$/springcloud-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud-stream/springcloud-stream.iml" filepath="$PROJECT_DIR$/springcloud-stream/springcloud-stream.iml" />
-      <module fileurl="file://$PROJECT_DIR$/springcloud-stream/stream-consumer/stream-consumer.iml" filepath="$PROJECT_DIR$/springcloud-stream/stream-consumer/stream-consumer.iml" />
-      <module fileurl="file://$PROJECT_DIR$/springcloud-stream/stream-producer/stream-producer.iml" filepath="$PROJECT_DIR$/springcloud-stream/stream-producer/stream-producer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-stream/rabbitmq/stream-consumer/stream-consumer.iml" filepath="$PROJECT_DIR$/springcloud-stream/rabbitmq/stream-consumer/stream-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-stream/rabbitmq/stream-producer/stream-producer.iml" filepath="$PROJECT_DIR$/springcloud-stream/rabbitmq/stream-producer/stream-producer.iml" />
       <module fileurl="file://$PROJECT_DIR$/config/zuul_gateway/zuul_gateway.iml" filepath="$PROJECT_DIR$/config/zuul_gateway/zuul_gateway.iml" />
     </modules>
   </component>

@@ -14,10 +14,15 @@
         <module name="config_client" />
         <module name="config_server" />
         <module name="eureka-server" />
+        <module name="kafka" />
+        <module name="kafka-producer" />
+        <module name="rabbitmq" />
+        <module name="rabbitmq (1)" />
         <module name="springboot-swagger" />
         <module name="stream" />
         <module name="stream-consumer" />
         <module name="stream-producer" />
+        <module name="stream-producer (1)" />
         <module name="streamproducer1" />
         <module name="StreamRabbitMQSelf" />
         <module name="zuul_gateway" />
@@ -35,7 +40,11 @@
       <module name="config_client" target="1.8" />
       <module name="config_server" target="1.8" />
       <module name="eureka-server" target="1.8" />
+      <module name="kafka" target="1.8" />
+      <module name="kafka-producer" target="1.8" />
       <module name="parents" target="1.8" />
+      <module name="rabbitmq" target="1.8" />
+      <module name="rabbitmq (1)" target="1.8" />
       <module name="spring-cloud" target="1.8" />
       <module name="spring-cloud-stream" target="1.8" />
       <module name="springboot-swagger" target="1.8" />
@@ -45,6 +54,7 @@
       <module name="stream" target="1.8" />
       <module name="stream-consumer" target="1.8" />
       <module name="stream-producer" target="1.8" />
+      <module name="stream-producer (1)" target="1.8" />
       <module name="streamproducer1" target="1.8" />
       <module name="StreamRabbitMQSelf" target="1.8" />
       <module name="test" target="1.8" />

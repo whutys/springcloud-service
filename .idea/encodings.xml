@@ -18,9 +18,11 @@
     <file url="file://$PROJECT_DIR$/parents/common" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-swagger" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloud-stream" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/springcloud-stream/stream-consumer" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/springcloud-stream/stream-producer" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/test" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-stream/kafka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-stream/kafka/kafka-producer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-stream/rabbitmq" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-stream/rabbitmq/stream-consumer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-stream/rabbitmq/stream-producer" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

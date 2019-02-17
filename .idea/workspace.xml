@@ -2,11 +2,56 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bca59553-34e2-4ad5-b8a4-cf22d727502f" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springcloud-stream/rabbitmq/stream-producer/target/classes/ys/springcloud/AppStreamProducer.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springcloud-stream/rabbitmq/stream-producer/target/classes/ys/springcloud/controller/SendMsgController.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springcloud-stream/rabbitmq/stream-producer/target/classes/ys/springcloud/stream/SendMessageInterface.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springcloud-stream/rabbitmq/stream-producer/target/test-classes/test.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_kafka_kafka_clients_2_0_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_lz4_lz4_java_1_4_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_stream_binder_kafka_2_1_0_RC4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_stream_binder_kafka_core_2_1_0_RC4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_integration_spring_integration_kafka_3_1_0_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_kafka_spring_kafka_2_2_2_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xerial_snappy_snappy_java_1_1_7_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springcloud-stream/kafka/kafka-producer/kafka-producer.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springcloud-stream/kafka/kafka-producer/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springcloud-stream/kafka/kafka-producer/src/main/java/ys/springcloud/AppKafkaProducer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springcloud-stream/kafka/kafka-producer/src/main/java/ys/springcloud/controller/SendMsgController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springcloud-stream/kafka/kafka-producer/src/main/java/ys/springcloud/stream/SendMessageChannel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springcloud-stream/kafka/kafka-producer/src/main/resources/application.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springcloud-stream/kafka/kafka.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springcloud-stream/kafka/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springcloud-stream/rabbitmq/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springcloud-stream/rabbitmq/rabbitmq.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springcloud-stream/rabbitmq/stream-producer/target/classes/application.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/spring-cloud.iml" afterPath="$PROJECT_DIR$/springcloud-service.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springcloud-stream/pom.xml" afterPath="$PROJECT_DIR$/springcloud-stream/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springcloud-stream/springcloud-stream.iml" afterPath="$PROJECT_DIR$/springcloud-stream/springcloud-stream.iml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/springcloud-stream/stream-consumer/pom.xml" afterPath="$PROJECT_DIR$/springcloud-stream/rabbitmq/stream-consumer/pom.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/springcloud-stream/stream-consumer/src/main/java/ys/springcloud/AppStreamConsumer.java" afterPath="$PROJECT_DIR$/springcloud-stream/rabbitmq/stream-consumer/src/main/java/ys/springcloud/AppStreamConsumer.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/springcloud-stream/stream-consumer/src/main/java/ys/springcloud/application/StreamConsumer.java" afterPath="$PROJECT_DIR$/springcloud-stream/rabbitmq/stream-consumer/src/main/java/ys/springcloud/application/StreamConsumer.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/springcloud-stream/stream-consumer/src/main/java/ys/springcloud/stream/ReadMessageInterface.java" afterPath="$PROJECT_DIR$/springcloud-stream/rabbitmq/stream-consumer/src/main/java/ys/springcloud/stream/ReadMessageInterface.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/springcloud-stream/stream-consumer/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/springcloud-stream/rabbitmq/stream-consumer/src/main/resources/application.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/springcloud-stream/stream-consumer/stream-consumer.iml" afterPath="$PROJECT_DIR$/springcloud-stream/rabbitmq/stream-consumer/stream-consumer.iml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/springcloud-stream/stream-consumer/target/classes/application.yml" afterPath="$PROJECT_DIR$/springcloud-stream/rabbitmq/stream-consumer/target/classes/application.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/springcloud-stream/stream-consumer/target/classes/ys/springcloud/AppStreamConsumer.class" afterPath="$PROJECT_DIR$/springcloud-stream/rabbitmq/stream-consumer/target/classes/ys/springcloud/AppStreamConsumer.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/springcloud-stream/stream-consumer/target/classes/ys/springcloud/application/StreamConsumer.class" afterPath="$PROJECT_DIR$/springcloud-stream/rabbitmq/stream-consumer/target/classes/ys/springcloud/application/StreamConsumer.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/springcloud-stream/stream-consumer/target/classes/ys/springcloud/stream/ReadMessageInterface.class" afterPath="$PROJECT_DIR$/springcloud-stream/rabbitmq/stream-consumer/target/classes/ys/springcloud/stream/ReadMessageInterface.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/springcloud-stream/stream-producer/pom.xml" afterPath="$PROJECT_DIR$/springcloud-stream/rabbitmq/stream-producer/pom.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/springcloud-stream/stream-producer/src/main/java/ys/springcloud/AppStreamProducer.java" afterPath="$PROJECT_DIR$/springcloud-stream/rabbitmq/stream-producer/src/main/java/ys/springcloud/AppStreamProducer.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/springcloud-stream/stream-producer/src/main/java/ys/springcloud/controller/SendMsgController.java" afterPath="$PROJECT_DIR$/springcloud-stream/rabbitmq/stream-producer/src/main/java/ys/springcloud/controller/SendMsgController.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/springcloud-stream/stream-producer/src/main/java/ys/springcloud/stream/SendMessageInterface.java" afterPath="$PROJECT_DIR$/springcloud-stream/rabbitmq/stream-producer/src/main/java/ys/springcloud/stream/SendMessageInterface.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/springcloud-stream/stream-producer/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/springcloud-stream/kafka/kafka-producer/target/classes/application.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/springcloud-stream/stream-producer/stream-producer.iml" afterPath="$PROJECT_DIR$/springcloud-stream/rabbitmq/stream-producer/stream-producer.iml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/springcloud-stream/stream-producer/target/classes/application.yml" afterPath="$PROJECT_DIR$/springcloud-stream/rabbitmq/stream-producer/src/main/resources/application.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/springcloud-stream/stream-producer/target/classes/ys/springcloud/AppStreamProducer.class" afterPath="$PROJECT_DIR$/springcloud-stream/kafka/kafka-producer/target/classes/ys/springcloud/AppStreamProducer.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/springcloud-stream/stream-producer/target/classes/ys/springcloud/controller/SendMsgController.class" afterPath="$PROJECT_DIR$/springcloud-stream/kafka/kafka-producer/target/classes/ys/springcloud/controller/SendMsgController.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/springcloud-stream/stream-producer/target/classes/ys/springcloud/stream/SendMessageInterface.class" afterPath="$PROJECT_DIR$/springcloud-stream/kafka/kafka-producer/target/classes/ys/springcloud/stream/SendMessageInterface.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/springcloud-stream/stream-producer/target/test-classes/test.class" afterPath="$PROJECT_DIR$/springcloud-stream/kafka/kafka-producer/target/test-classes/test.class" />
     </list>
     <ignored path="$PROJECT_DIR$/config/zuul_gateway/target/" />
     <ignored path="$PROJECT_DIR$/parents/api-service/api-order-service/target/" />
@@ -28,6 +73,12 @@
     <ignored path="$PROJECT_DIR$/springcloud-stream/stream-consumer/target/" />
     <ignored path="$PROJECT_DIR$/StreamRabbitMQSelf/target/" />
     <ignored path="$PROJECT_DIR$/test/target/" />
+    <ignored path="$PROJECT_DIR$/springcloud-stream/rabbitmq/target/" />
+    <ignored path="$PROJECT_DIR$/springcloud-stream/rabbitmq/stream-producer/target/" />
+    <ignored path="$PROJECT_DIR$/springcloud-stream/rabbitmq/stream-consumer/target/" />
+    <ignored path="$PROJECT_DIR$/springcloud-stream/kafka/target/" />
+    <ignored path="$PROJECT_DIR$/springcloud-stream/kafka/stream-producer/target/" />
+    <ignored path="$PROJECT_DIR$/springcloud-stream/kafka/kafka-producer/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,28 +91,28 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/eureka-server/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
+            <state relative-caret-position="0">
               <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springcloud-stream/kafka/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="21" column="43" lean-forward="false" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
+            <state relative-caret-position="235">
+              <caret line="13" column="26" lean-forward="false" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IMemberService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/parents/api-service/api-member-service/src/main/java/ys/springcloud/api/service/IMemberService.java">
+      <file leaf-file-name="AppKafkaProducer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springcloud-stream/kafka/kafka-producer/src/main/java/ys/springcloud/AppKafkaProducer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="11" column="11" lean-forward="false" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+            <state relative-caret-position="171">
+              <caret line="9" column="23" lean-forward="false" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -69,51 +120,75 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ResponseBase.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/parents/common/src/main/java/ys/springcloud/base/ResponseBase.java">
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springcloud-stream/kafka/kafka-producer/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+            <state relative-caret-position="437">
+              <caret line="26" column="53" lean-forward="false" selection-start-line="26" selection-start-column="53" selection-end-line="26" selection-end-column="53" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="SendMessageChannel.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springcloud-stream/kafka/kafka-producer/src/main/java/ys/springcloud/stream/SendMessageChannel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="11" column="21" lean-forward="true" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SendMsgController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/springcloud-stream/kafka/kafka-producer/src/main/java/ys/springcloud/controller/SendMsgController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="17" column="35" lean-forward="true" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1039#1040#0" expanded="true" />
+                <element signature="e#1095#1096#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/parents/api-service/api-member-service/pom.xml">
+        <entry file="file://$PROJECT_DIR$/springcloud-stream/kafka/kafka-producer/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="247">
-              <caret line="13" column="20" lean-forward="false" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+              <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/parents/api-member-service-impl/pom.xml">
+      <file leaf-file-name="SendMessageInterface.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springcloud-stream/rabbitmq/stream-producer/src/main/java/ys/springcloud/stream/SendMessageInterface.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="152">
+              <caret line="9" column="29" lean-forward="false" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/parents/pom.xml">
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springcloud-stream/rabbitmq/stream-producer/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="20" lean-forward="false" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+            <state relative-caret-position="342">
+              <caret line="18" column="23" lean-forward="false" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/parents/api-service/pom.xml">
+      <file leaf-file-name="AppStreamProducer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springcloud-stream/rabbitmq/stream-producer/src/main/java/ys/springcloud/AppStreamProducer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="30" lean-forward="false" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+            <state relative-caret-position="76">
+              <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -155,7 +230,6 @@
         <option value="$PROJECT_DIR$/springcloud-stream/stream-consumer/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/springcloud-stream/stream-producer/src/main/java/ys/springcloud/controller/SendMsgController.java" />
         <option value="$PROJECT_DIR$/springcloud-stream/stream-producer/src/main/java/ys/springcloud/AppStreamProducer.java" />
-        <option value="$PROJECT_DIR$/springcloud-stream/pom.xml" />
         <option value="$PROJECT_DIR$/springcloud-stream/stream-producer/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/springcloud-stream/stream-producer/src/main/java/ys/springcloud/stream/SendMessageInterface.java" />
         <option value="$PROJECT_DIR$/StreamRabbitMQSelf/pom.xml" />
@@ -179,6 +253,18 @@
         <option value="$PROJECT_DIR$/test/src/main/java/test.java" />
         <option value="$PROJECT_DIR$/test/src/main/java/GeoHash.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-stream/rabbitmq/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-stream/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-stream/kafka/stream-producer/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-stream/rabbitmq/stream-producer/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-stream/rabbitmq/stream-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-stream/kafka/kafka-producer/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-stream/kafka/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-stream/kafka/kafka-producer/src/main/java/ys/springcloud/AppStreamProducer.java" />
+        <option value="$PROJECT_DIR$/springcloud-stream/kafka/kafka-producer/src/main/java/ys/springcloud/stream/SendMessageInterface.java" />
+        <option value="$PROJECT_DIR$/springcloud-stream/kafka/kafka-producer/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/springcloud-stream/kafka/kafka-producer/src/main/java/ys/springcloud/controller/SendMsgController.java" />
+        <option value="$PROJECT_DIR$/springcloud-stream/kafka/kafka-producer/src/main/java/ys/springcloud/stream/SendMessageChannel.java" />
       </list>
     </option>
   </component>
@@ -230,6 +316,8 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -246,27 +334,160 @@
               <item name="springcloud-service" type="b2602c69:ProjectViewProjectNode" />
               <item name="springcloud-service" type="462c0819:PsiDirectoryNode" />
               <item name="springcloud-stream" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-service" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-service" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-stream" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka-producer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-service" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-service" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-stream" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka-producer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-service" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-service" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-stream" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka-producer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-service" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-service" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-stream" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka-producer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-service" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-service" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-stream" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka-producer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-service" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-service" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-stream" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka-producer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-service" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-service" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-stream" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka-producer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="stream" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-service" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-service" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-stream" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka-producer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-service" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-service" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-stream" type="462c0819:PsiDirectoryNode" />
+              <item name="rabbitmq" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-service" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-service" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-stream" type="462c0819:PsiDirectoryNode" />
+              <item name="rabbitmq" type="462c0819:PsiDirectoryNode" />
               <item name="stream-producer" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springcloud-service" type="b2602c69:ProjectViewProjectNode" />
               <item name="springcloud-service" type="462c0819:PsiDirectoryNode" />
               <item name="springcloud-stream" type="462c0819:PsiDirectoryNode" />
+              <item name="rabbitmq" type="462c0819:PsiDirectoryNode" />
               <item name="stream-producer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-service" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-service" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-stream" type="462c0819:PsiDirectoryNode" />
+              <item name="rabbitmq" type="462c0819:PsiDirectoryNode" />
+              <item name="stream-producer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-service" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-service" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-stream" type="462c0819:PsiDirectoryNode" />
+              <item name="rabbitmq" type="462c0819:PsiDirectoryNode" />
+              <item name="stream-producer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-service" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-service" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-stream" type="462c0819:PsiDirectoryNode" />
+              <item name="rabbitmq" type="462c0819:PsiDirectoryNode" />
+              <item name="stream-producer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-service" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-service" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-stream" type="462c0819:PsiDirectoryNode" />
+              <item name="rabbitmq" type="462c0819:PsiDirectoryNode" />
+              <item name="stream-producer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="stream" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="settings.editor.selected.configurable" value="Lombok plugin" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.ignored.files" />
     <property name="show.run.dashboard.notification" value="false" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelOrder0" value="0" />
@@ -279,22 +500,25 @@
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\javastudy\springcloud-service\test\src\main\java" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="ys.springcloud.stream" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\javastudy\springcloud-service\springcloud-stream\kafka" />
+      <recent name="E:\javastudy\springcloud-service\StreamRabbitMQSelf\src\main\java" />
+      <recent name="E:\javastudy\springcloud-service\springcloud-stream\stream-consumer" />
+      <recent name="E:\javastudy\springcloud-service\springcloud-stream\stream-producer" />
+      <recent name="E:\javastudy\springcloud-service\stream" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="ys.springcloud" />
       <recent name="ys.springcloud.stream" />
       <recent name="ys.springcloud.application.stream" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\javastudy\springcloud-service\StreamRabbitMQSelf\src\main\java" />
-      <recent name="E:\javastudy\springcloud-service\springcloud-stream\stream-consumer" />
-      <recent name="E:\javastudy\springcloud-service\springcloud-stream\stream-producer" />
-      <recent name="E:\javastudy\springcloud-service\stream" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\javastudy\springcloud-service\springcloud-stream\kafka" />
+      <recent name="E:\javastudy\springcloud-service\springcloud-stream\rabbitmq" />
+      <recent name="E:\javastudy\springcloud-service\test\src\main\java" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -309,7 +533,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.AppKafkaProducer">
     <configuration name="AppConfigClient" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <option name="SPRING_BOOT_MAIN_CLASS" value="ys.springcloud.AppConfigClient" />
       <module name="config_client" />
@@ -328,6 +552,11 @@
     <configuration name="AppGateWay" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <option name="SPRING_BOOT_MAIN_CLASS" value="ys.springcloud.AppGateWay" />
       <module name="zuul_gateway" />
+      <envs />
+    </configuration>
+    <configuration name="AppKafkaProducer" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ys.springcloud.AppKafkaProducer" />
+      <module name="kafka-producer" />
       <envs />
     </configuration>
     <configuration name="AppMember" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
@@ -431,7 +660,7 @@
       <module name="test" />
       <envs />
     </configuration>
-    <list size="11">
+    <list size="12">
       <item index="0" class="java.lang.String" itemvalue="Spring Boot.AppGateWay" />
       <item index="1" class="java.lang.String" itemvalue="Spring Boot.AppEurekaServer" />
       <item index="2" class="java.lang.String" itemvalue="Spring Boot.AppMember" />
@@ -443,12 +672,14 @@
       <item index="8" class="java.lang.String" itemvalue="Spring Boot.AppStreamProducer" />
       <item index="9" class="java.lang.String" itemvalue="Spring Boot.AppStreamConsumer" />
       <item index="10" class="java.lang.String" itemvalue="Spring Boot.StreamRabbitMQSelfApplication" />
+      <item index="11" class="java.lang.String" itemvalue="Spring Boot.AppKafkaProducer" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Application.test" />
-        <item index="1" class="java.lang.String" itemvalue="Spring Boot.StreamRabbitMQSelfApplication" />
-        <item index="2" class="java.lang.String" itemvalue="Spring Boot.AppStreamProducer" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Spring Boot.AppKafkaProducer" />
+        <item index="1" class="java.lang.String" itemvalue="Spring Boot.AppStreamProducer" />
+        <item index="2" class="java.lang.String" itemvalue="Application.test" />
+        <item index="3" class="java.lang.String" itemvalue="Spring Boot.StreamRabbitMQSelfApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -477,40 +708,50 @@
       <workItem from="1549712587521" duration="7729000" />
       <workItem from="1550374640005" duration="2032000" />
       <workItem from="1550379163100" duration="80000" />
-      <workItem from="1550379358410" duration="262000" />
+      <workItem from="1550379358410" duration="5371000" />
+      <workItem from="1550387206007" duration="272000" />
+      <workItem from="1550387503709" duration="3267000" />
     </task>
+    <task id="LOCAL-00001" summary="rabbitmq">
+      <created>1550379722903</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1550379722903</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56552000" />
+    <option name="totallyTimeSpent" value="65200000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.50907713" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23298033" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.48487142" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32894737" sideWeight="0.49092284" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5121029" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24054463" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.49092284" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32894737" sideWeight="0.48789713" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.4969743" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20574887" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2065053" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39967105" sideWeight="0.49394855" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -550,6 +791,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="rabbitmq" />
+    <option name="LAST_COMMIT_MESSAGE" value="rabbitmq" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <option name="time" value="3" />
@@ -557,99 +802,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/springcloud-stream/src/main/resources/application.yml" />
-    <entry file="file://$PROJECT_DIR$/springcloud-stream/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="19" lean-forward="false" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stream/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/config/config_client/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="38" lean-forward="false" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud-stream/stream-consumer/src/main/java/ys/springcloud/AppStreamConsumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="7" column="34" lean-forward="false" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud-stream/stream-consumer/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud-stream/stream-producer/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud-stream/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="21" column="21" lean-forward="false" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud-stream/stream-consumer/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="8" lean-forward="false" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud-stream/stream-consumer/src/main/java/ys/springcloud/stream/ReadMessageInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="10" column="10" lean-forward="false" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud-stream/stream-consumer/src/main/java/ys/springcloud/application/StreamConsumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="29" lean-forward="false" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud-stream/stream-producer/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="24" column="13" lean-forward="false" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud-stream/stream-producer/src/main/java/ys/springcloud/controller/SendMsgController.java">
+    <entry file="file://$PROJECT_DIR$/springcloud-stream/rabbitmq/stream-producer/src/main/java/ys/springcloud/controller/SendMsgController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="22" column="32" lean-forward="false" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud-stream/stream-producer/src/main/java/ys/springcloud/AppStreamProducer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="22" lean-forward="false" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud-stream/stream-producer/src/main/java/ys/springcloud/stream/SendMessageInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="19" lean-forward="false" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -734,7 +890,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="24" column="37" lean-forward="true" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -742,7 +897,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-228">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -772,7 +926,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -787,7 +940,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="6" column="18" lean-forward="false" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -809,7 +961,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="11" column="20" lean-forward="false" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -817,7 +968,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
           <caret line="12" column="30" lean-forward="false" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -825,15 +975,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-server/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -841,7 +982,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
           <caret line="13" column="20" lean-forward="false" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -849,9 +989,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="11" column="11" lean-forward="false" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1939,9 +2076,135 @@
     <entry file="file://$PROJECT_DIR$/test/src/main/java/GeoHash.java" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="21" column="43" lean-forward="false" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
+        <state relative-caret-position="779">
+          <caret line="41" column="29" lean-forward="false" selection-start-line="41" selection-start-column="29" selection-end-line="41" selection-end-column="29" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-stream/rabbitmq/stream-producer/src/main/java/ys/springcloud/AppStreamProducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-stream/rabbitmq/stream-producer/src/main/java/ys/springcloud/stream/SendMessageInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="9" column="29" lean-forward="false" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-stream/rabbitmq/stream-producer/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="23" lean-forward="false" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-stream/rabbitmq/stream-producer/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="28" lean-forward="false" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-stream/rabbitmq/stream-consumer/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="28" lean-forward="false" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-stream/rabbitmq/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="8" column="26" lean-forward="false" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-stream/kafka/kafka-producer/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-stream/kafka/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="13" column="26" lean-forward="false" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-stream/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="15" column="20" lean-forward="false" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-stream/kafka/kafka-producer/src/main/java/ys/springcloud/AppKafkaProducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="23" lean-forward="false" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-stream/2.1.0.RC4/spring-cloud-stream-2.1.0.RC4.jar!/org/springframework/cloud/stream/config/BindingServiceProperties.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="62" column="16" lean-forward="false" selection-start-line="62" selection-start-column="16" selection-end-line="62" selection-end-column="16" />
+          <folding>
+            <element signature="e#2848#2849#0" expanded="true" />
+            <element signature="e#2894#2895#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-stream/kafka/kafka-producer/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="26" column="53" lean-forward="false" selection-start-line="26" selection-start-column="53" selection-end-line="26" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-stream/kafka/kafka-producer/src/main/java/ys/springcloud/stream/SendMessageChannel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="11" column="21" lean-forward="true" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-stream/kafka/kafka-producer/src/main/java/ys/springcloud/controller/SendMsgController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="17" column="35" lean-forward="true" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1039#1040#0" expanded="true" />
+            <element signature="e#1095#1096#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
