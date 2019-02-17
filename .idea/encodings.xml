@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="Encoding" addBOMForNewFiles="with NO BOM">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/StreamRabbitMQSelf" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/config" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/config/config_client" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/config/config_server" charset="UTF-8" />
@@ -12,8 +13,14 @@
     <file url="file://$PROJECT_DIR$/parents/api-order-service-impl" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/parents/api-service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/parents/api-service/api-member-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/parents/api-service/api-member-service/src/main/java/ys/springcloud/api/service/IMemberService.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/parents/api-service/api-order-service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/parents/common" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-swagger" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-stream" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-stream/stream-consumer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-stream/stream-producer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/test" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

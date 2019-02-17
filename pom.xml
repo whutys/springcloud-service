@@ -18,6 +18,9 @@
         <module>parents</module>
         <module>config</module>
         <module>springboot-swagger</module>
+        <module>springcloud-stream</module>
+        <module>StreamRabbitMQSelf</module>
+        <module>test</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -33,6 +36,14 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
+
+        <!--开始  阿里的fastjson  -->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>RELEASE</version>
+        </dependency>
+        <!--结束  阿里的fastjson  -->
     </dependencies>
 
     <dependencyManagement>

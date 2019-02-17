@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/StreamRabbitMQSelf/StreamRabbitMQSelf.iml" filepath="$PROJECT_DIR$/StreamRabbitMQSelf/StreamRabbitMQSelf.iml" />
+      <module fileurl="file://$PROJECT_DIR$/parents/api-service/api-member-service/api-member-service.iml" filepath="$PROJECT_DIR$/parents/api-service/api-member-service/api-member-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/parents/api-member-service-impl/api-member-service-impl.iml" filepath="$PROJECT_DIR$/parents/api-member-service-impl/api-member-service-impl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/parents/api-service/api-order-service/api-order-service.iml" filepath="$PROJECT_DIR$/parents/api-service/api-order-service/api-order-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/parents/api-order-service-impl/api-order-service-impl.iml" filepath="$PROJECT_DIR$/parents/api-order-service-impl/api-order-service-impl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/parents/api-service/api-service.iml" filepath="$PROJECT_DIR$/parents/api-service/api-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/parents/common/common.iml" filepath="$PROJECT_DIR$/parents/common/common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/config/config.iml" filepath="$PROJECT_DIR$/config/config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/config/config_client/config_client.iml" filepath="$PROJECT_DIR$/config/config_client/config_client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/config/config_server/config_server.iml" filepath="$PROJECT_DIR$/config/config_server/config_server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/eureka-server/eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/parents/parents.iml" filepath="$PROJECT_DIR$/parents/parents.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud.iml" filepath="$PROJECT_DIR$/spring-cloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-swagger/springboot-swagger.iml" filepath="$PROJECT_DIR$/springboot-swagger/springboot-swagger.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-stream/springcloud-stream.iml" filepath="$PROJECT_DIR$/springcloud-stream/springcloud-stream.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-stream/stream-consumer/stream-consumer.iml" filepath="$PROJECT_DIR$/springcloud-stream/stream-consumer/stream-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-stream/stream-producer/stream-producer.iml" filepath="$PROJECT_DIR$/springcloud-stream/stream-producer/stream-producer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test/test.iml" filepath="$PROJECT_DIR$/test/test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/config/zuul_gateway/zuul_gateway.iml" filepath="$PROJECT_DIR$/config/zuul_gateway/zuul_gateway.iml" />
+    </modules>
+  </component>
+</project>

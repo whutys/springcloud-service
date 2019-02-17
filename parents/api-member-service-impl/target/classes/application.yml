@@ -1,0 +1,32 @@
+server:
+  port: 8001
+spring:
+  application:
+    name: app-member
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+    register-with-eureka: true
+    fetch-registry: true
+
+hystrix:
+  command:
+    default:
+      execution:
+        #禁止超时降级
+        # timeout:
+        #   enable: false
+        isolation:
+          thread:
+            timeoutInMilliseconds: 5000
+    serverMethod:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 5000
+
+
+swagger:
+  base-package: ys.springcloud.api

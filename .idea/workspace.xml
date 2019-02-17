@@ -1,0 +1,2094 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bca59553-34e2-4ad5-b8a4-cf22d727502f" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_56.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/StreamRabbitMQSelf/StreamRabbitMQSelf.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/StreamRabbitMQSelf/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/StreamRabbitMQSelf/src/main/java/com/StreamRabbitMQSelf/StreamRabbitMQSelfApplication.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/StreamRabbitMQSelf/src/main/java/com/StreamRabbitMQSelf/controller/TestController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/StreamRabbitMQSelf/src/main/java/com/StreamRabbitMQSelf/model/CdkeyParameter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/StreamRabbitMQSelf/src/main/java/com/StreamRabbitMQSelf/rabbitMQ/channels/ReceiveInputChannel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/StreamRabbitMQSelf/src/main/java/com/StreamRabbitMQSelf/rabbitMQ/channels/SendOutputChannel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/StreamRabbitMQSelf/src/main/java/com/StreamRabbitMQSelf/rabbitMQ/service/ReceviveMessage.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/StreamRabbitMQSelf/src/main/java/com/StreamRabbitMQSelf/rabbitMQ/service/SendMessage.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/StreamRabbitMQSelf/src/main/java/com/StreamRabbitMQSelf/rabbitMQ/service/impl/ReceviveMessageImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/StreamRabbitMQSelf/src/main/java/com/StreamRabbitMQSelf/rabbitMQ/service/impl/SendMessageImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/StreamRabbitMQSelf/src/main/java/com/StreamRabbitMQSelf/utils/common/ParameterUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/StreamRabbitMQSelf/src/main/resources/application.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/parents/common/common.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/parents/common/src/main/java/ys/springcloud/MainClass.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/parents/parents.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springcloud-stream/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springcloud-stream/springcloud-stream.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springcloud-stream/stream-consumer/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springcloud-stream/stream-consumer/src/main/java/ys/springcloud/AppStreamConsumer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springcloud-stream/stream-consumer/src/main/java/ys/springcloud/application/StreamConsumer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springcloud-stream/stream-consumer/src/main/java/ys/springcloud/stream/ReadMessageInterface.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springcloud-stream/stream-consumer/src/main/resources/application.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springcloud-stream/stream-consumer/stream-consumer.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springcloud-stream/stream-producer/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springcloud-stream/stream-producer/src/main/java/ys/springcloud/AppStreamProducer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springcloud-stream/stream-producer/src/main/java/ys/springcloud/controller/SendMsgController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springcloud-stream/stream-producer/src/main/java/ys/springcloud/stream/SendMessageInterface.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springcloud-stream/stream-producer/src/main/resources/application.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springcloud-stream/stream-producer/stream-producer.iml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/config/config.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/config/config_client/config_client.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/config/config_server/config_server.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/parents/api-member-service-impl/api-member-service-impl.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/springcloud微服务.iml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/config_client/pom.xml" afterPath="$PROJECT_DIR$/config/config_client/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eureka-server/pom.xml" afterPath="$PROJECT_DIR$/eureka-server/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/parents/api-service/api-member-service/pom.xml" afterPath="$PROJECT_DIR$/parents/api-service/api-member-service/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/parents/common/pom.xml" afterPath="$PROJECT_DIR$/parents/common/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+    </list>
+    <ignored path="$PROJECT_DIR$/config/zuul_gateway/target/" />
+    <ignored path="$PROJECT_DIR$/parents/api-service/api-order-service/target/" />
+    <ignored path="$PROJECT_DIR$/eureka-server/target/" />
+    <ignored path="$PROJECT_DIR$/parents/api-member-service-impl/target/" />
+    <ignored path="$PROJECT_DIR$/config/target/" />
+    <ignored path="$PROJECT_DIR$/parents/api-order-service-impl/target/" />
+    <ignored path="$PROJECT_DIR$/springboot-swagger/target/" />
+    <ignored path="$PROJECT_DIR$/parents/api-service/api-member-service/target/" />
+    <ignored path="$PROJECT_DIR$/parents/api-service/target/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/parents/common/target/" />
+    <ignored path="$PROJECT_DIR$/config/config_server/target/" />
+    <ignored path="$PROJECT_DIR$/parents/target/" />
+    <ignored path="$PROJECT_DIR$/config/config_client/target/" />
+    <ignored path="$PROJECT_DIR$/stream/target/" />
+    <ignored path="$PROJECT_DIR$/springcloud-stream/target/" />
+    <ignored path="$PROJECT_DIR$/springcloud-stream/stream-producer/target/" />
+    <ignored path="$PROJECT_DIR$/springcloud-stream/stream-consumer/target/" />
+    <ignored path="$PROJECT_DIR$/StreamRabbitMQSelf/target/" />
+    <ignored path="$PROJECT_DIR$/test/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/eureka-server/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1121">
+              <caret line="60" column="11" lean-forward="false" selection-start-line="60" selection-start-column="11" selection-end-line="60" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IMemberService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/parents/api-service/api-member-service/src/main/java/ys/springcloud/api/service/IMemberService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="11" column="11" lean-forward="false" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ResponseBase.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/parents/common/src/main/java/ys/springcloud/base/ResponseBase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/parents/api-service/api-member-service/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="13" column="20" lean-forward="false" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/parents/api-member-service-impl/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/parents/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="11" column="20" lean-forward="false" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/parents/api-service/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="12" column="30" lean-forward="false" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/stream/src/main/java/ys.springcloud.stream/SendMessageInterface.java" />
+        <option value="$PROJECT_DIR$/stream/src/main/java/ys/springcloud/stream/SendMessageInterface.java" />
+        <option value="$PROJECT_DIR$/stream/src/main/java/ys/springcloud/AppStreamProducer.java" />
+        <option value="$PROJECT_DIR$/stream/src/main/java/ys/springcloud/controller/SendMsgController.java" />
+        <option value="$PROJECT_DIR$/stream/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/stream/pom.xml" />
+        <option value="$PROJECT_DIR$/config/config_client/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-stream/stream-producer/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-stream/stream-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-stream/stream-consumer/src/main/java/ys/springcloud/stream/ReadMessageInterface.java" />
+        <option value="$PROJECT_DIR$/springcloud-stream/stream-consumer/src/main/java/ys/springcloud/application/StreamConsumer.java" />
+        <option value="$PROJECT_DIR$/springcloud-stream/stream-consumer/src/main/java/ys/springcloud/AppStreamConsumer.java" />
+        <option value="$PROJECT_DIR$/springcloud-stream/stream-consumer/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/springcloud-stream/stream-producer/src/main/java/ys/springcloud/controller/SendMsgController.java" />
+        <option value="$PROJECT_DIR$/springcloud-stream/stream-producer/src/main/java/ys/springcloud/AppStreamProducer.java" />
+        <option value="$PROJECT_DIR$/springcloud-stream/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-stream/stream-producer/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/springcloud-stream/stream-producer/src/main/java/ys/springcloud/stream/SendMessageInterface.java" />
+        <option value="$PROJECT_DIR$/StreamRabbitMQSelf/pom.xml" />
+        <option value="$PROJECT_DIR$/StreamRabbitMQSelf/src/main/java/StreamRabbitMQSelf/rabbitMQ/channels/ReceiveInputChannel.java" />
+        <option value="$PROJECT_DIR$/StreamRabbitMQSelf/src/main/java/com/StreamRabbitMQSelf/rabbitMQ/service/SendMessage.java" />
+        <option value="$PROJECT_DIR$/StreamRabbitMQSelf/src/main/java/com/StreamRabbitMQSelf/rabbitMQ/service/ReceviveMessage.java" />
+        <option value="$PROJECT_DIR$/StreamRabbitMQSelf/src/main/java/com/StreamRabbitMQSelf/rabbitMQ/service/impl/SendMessageImpl.java" />
+        <option value="$PROJECT_DIR$/StreamRabbitMQSelf/src/main/java/com/StreamRabbitMQSelf/rabbitMQ/service/impl/ReceviveMessageImpl.java" />
+        <option value="$PROJECT_DIR$/StreamRabbitMQSelf/src/main/java/com/StreamRabbitMQSelf/model/CdkeyParameter.java" />
+        <option value="$PROJECT_DIR$/StreamRabbitMQSelf/src/main/java/com/StreamRabbitMQSelf/utils/common/ParameterUtil.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/StreamRabbitMQSelf/src/main/java/com/StreamRabbitMQSelf/controller/TestController.java" />
+        <option value="$PROJECT_DIR$/StreamRabbitMQSelf/src/main/java/com/StreamRabbitMQSelf/StreamRabbitMQSelfApplication.java" />
+        <option value="$PROJECT_DIR$/StreamRabbitMQSelf/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/eureka-server/pom.xml" />
+        <option value="$PROJECT_DIR$/parents/common/pom.xml" />
+        <option value="$PROJECT_DIR$/parents/api-service/pom.xml" />
+        <option value="$PROJECT_DIR$/parents/common/src/main/java/ys/springcloud/MainClass.java" />
+        <option value="$PROJECT_DIR$/parents/api-service/api-member-service/src/main/java/ys/springcloud/api/service/IMemberService.java" />
+        <option value="$PROJECT_DIR$/parents/api-service/api-member-service/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-stream/stream-producer/src/test/java/test.java" />
+        <option value="$PROJECT_DIR$/test/src/main/java/test.java" />
+        <option value="$PROJECT_DIR$/test/src/main/java/GeoHash.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/maven/apache-maven-3.5.2" />
+        <option name="userSettingsFile" value="D:\maven\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="MavenRunner">
+    <option name="vmOptions" value="-Ddfile.encoding=GBK" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-11" />
+    <option name="y" value="-8" />
+    <option name="width" value="1346" />
+    <option name="height" value="688" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="springcloud-service" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-service" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-service" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-stream" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-service" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-service" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-stream" type="462c0819:PsiDirectoryNode" />
+              <item name="stream-producer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-service" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-service" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-stream" type="462c0819:PsiDirectoryNode" />
+              <item name="stream-producer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
+    <property name="show.run.dashboard.notification" value="false" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\javastudy\springcloud-service\test\src\main\java" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="ys.springcloud.stream" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ys.springcloud" />
+      <recent name="ys.springcloud.stream" />
+      <recent name="ys.springcloud.application.stream" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\javastudy\springcloud-service\StreamRabbitMQSelf\src\main\java" />
+      <recent name="E:\javastudy\springcloud-service\springcloud-stream\stream-consumer" />
+      <recent name="E:\javastudy\springcloud-service\springcloud-stream\stream-producer" />
+      <recent name="E:\javastudy\springcloud-service\stream" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.GeoHash">
+    <configuration name="AppConfigClient" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ys.springcloud.AppConfigClient" />
+      <module name="config_client" />
+      <envs />
+    </configuration>
+    <configuration name="AppConfigServer" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ys.springcloud.AppConfigServer" />
+      <module name="config_server" />
+      <envs />
+    </configuration>
+    <configuration name="AppEurekaServer" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ys.springcloud.eurekaserver.AppEurekaServer" />
+      <module name="eureka-server" />
+      <envs />
+    </configuration>
+    <configuration name="AppGateWay" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ys.springcloud.AppGateWay" />
+      <module name="zuul_gateway" />
+      <envs />
+    </configuration>
+    <configuration name="AppMember" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ys.springcloud.AppMember" />
+      <module name="api-member-service-impl" />
+      <envs />
+    </configuration>
+    <configuration name="AppOrder" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ys.springcloud.api.AppOrder" />
+      <module name="api-order-service-impl" />
+      <envs />
+    </configuration>
+    <configuration name="AppStreamConsumer" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ys.springcloud.AppStreamConsumer" />
+      <module name="stream-consumer" />
+      <envs />
+    </configuration>
+    <configuration name="AppStreamProducer" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ys.springcloud.AppStreamProducer" />
+      <module name="stream-producer" />
+      <envs />
+    </configuration>
+    <configuration name="AppSwagger" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ys.springcloud.AppSwagger" />
+      <module name="springboot-swagger" />
+      <envs />
+    </configuration>
+    <configuration name="GeoHash" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GeoHash" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="test" />
+      <envs />
+    </configuration>
+    <configuration name="StreamRabbitMQSelfApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.StreamRabbitMQSelf.StreamRabbitMQSelfApplication" />
+      <module name="StreamRabbitMQSelf" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+    </configuration>
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="stream-producer" />
+      <envs />
+    </configuration>
+    <configuration name="test" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="test" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="test" />
+      <envs />
+    </configuration>
+    <list size="12">
+      <item index="0" class="java.lang.String" itemvalue="Spring Boot.AppGateWay" />
+      <item index="1" class="java.lang.String" itemvalue="Spring Boot.AppEurekaServer" />
+      <item index="2" class="java.lang.String" itemvalue="Spring Boot.AppMember" />
+      <item index="3" class="java.lang.String" itemvalue="Spring Boot.AppOrder" />
+      <item index="4" class="java.lang.String" itemvalue="Spring Boot.AppSwagger" />
+      <item index="5" class="java.lang.String" itemvalue="Spring Boot.AppConfigServer" />
+      <item index="6" class="java.lang.String" itemvalue="Spring Boot.AppConfigClient" />
+      <item index="7" class="java.lang.String" itemvalue="Application.test" />
+      <item index="8" class="java.lang.String" itemvalue="Spring Boot.AppStreamProducer" />
+      <item index="9" class="java.lang.String" itemvalue="Spring Boot.AppStreamConsumer" />
+      <item index="10" class="java.lang.String" itemvalue="Spring Boot.StreamRabbitMQSelfApplication" />
+      <item index="11" class="java.lang.String" itemvalue="Application.GeoHash" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Application.GeoHash" />
+        <item index="1" class="java.lang.String" itemvalue="Application.test" />
+        <item index="2" class="java.lang.String" itemvalue="Application.test" />
+        <item index="3" class="java.lang.String" itemvalue="Spring Boot.StreamRabbitMQSelfApplication" />
+        <item index="4" class="java.lang.String" itemvalue="Spring Boot.AppStreamProducer" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bca59553-34e2-4ad5-b8a4-cf22d727502f" name="Default" comment="" />
+      <created>1548772024837</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1548772024837</updated>
+      <workItem from="1548772026703" duration="331000" />
+      <workItem from="1548772366664" duration="162000" />
+      <workItem from="1548772534671" duration="210000" />
+      <workItem from="1548772750786" duration="143000" />
+      <workItem from="1548772899542" duration="147000" />
+      <workItem from="1548773050572" duration="171000" />
+      <workItem from="1548773226737" duration="2168000" />
+      <workItem from="1548832745556" duration="1251000" />
+      <workItem from="1548834065857" duration="2513000" />
+      <workItem from="1548836632191" duration="26140000" />
+      <workItem from="1549121723814" duration="290000" />
+      <workItem from="1549166899302" duration="12923000" />
+      <workItem from="1549712587521" duration="7729000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="54178000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32894737" sideWeight="0.5151286" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22919819" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.48487142" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19969743" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39967105" sideWeight="0.49394855" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnloadedModulesList">
+    <module name="test" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="3" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/springcloud-stream/src/main/resources/application.yml" />
+    <entry file="file://$PROJECT_DIR$/springcloud-stream/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="19" lean-forward="false" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stream/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/config/config_client/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="38" lean-forward="false" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-stream/stream-consumer/src/main/java/ys/springcloud/AppStreamConsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="7" column="34" lean-forward="false" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-stream/stream-consumer/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-stream/stream-producer/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-stream/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="21" column="21" lean-forward="false" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-stream/stream-consumer/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="8" lean-forward="false" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-stream/stream-consumer/src/main/java/ys/springcloud/stream/ReadMessageInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="10" column="10" lean-forward="false" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-stream/stream-consumer/src/main/java/ys/springcloud/application/StreamConsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="29" lean-forward="false" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-stream/stream-producer/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="24" column="13" lean-forward="false" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-stream/stream-producer/src/main/java/ys/springcloud/controller/SendMsgController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="22" column="32" lean-forward="false" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-stream/stream-producer/src/main/java/ys/springcloud/AppStreamProducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="22" lean-forward="false" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-stream/stream-producer/src/main/java/ys/springcloud/stream/SendMessageInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="19" lean-forward="false" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-stream/springcloud-stream.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StreamRabbitMQSelf/src/main/java/com/StreamRabbitMQSelf/rabbitMQ/channels/ReceiveInputChannel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="14" column="35" lean-forward="false" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StreamRabbitMQSelf/src/main/java/com/StreamRabbitMQSelf/rabbitMQ/service/SendMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StreamRabbitMQSelf/src/main/java/com/StreamRabbitMQSelf/rabbitMQ/service/ReceviveMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StreamRabbitMQSelf/src/main/java/com/StreamRabbitMQSelf/rabbitMQ/service/impl/ReceviveMessageImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="38" column="32" lean-forward="false" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StreamRabbitMQSelf/src/main/java/com/StreamRabbitMQSelf/model/CdkeyParameter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="20" lean-forward="false" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StreamRabbitMQSelf/src/main/java/com/StreamRabbitMQSelf/utils/common/ParameterUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="18" column="22" lean-forward="false" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StreamRabbitMQSelf/src/main/java/com/StreamRabbitMQSelf/controller/TestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StreamRabbitMQSelf/src/main/java/com/StreamRabbitMQSelf/rabbitMQ/channels/SendOutputChannel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="16" column="25" lean-forward="false" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StreamRabbitMQSelf/src/main/java/com/StreamRabbitMQSelf/rabbitMQ/service/impl/SendMessageImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="22" column="39" lean-forward="false" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/zuul_gateway/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="24" column="37" lean-forward="true" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parents/api-order-service-impl/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-228">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parents/common/src/main/java/ys/springcloud/base/BaseApiService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parents/common/common.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-285">
+          <caret line="11" column="11" lean-forward="true" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-677">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud微服务.iml" />
+    <entry file="file://$PROJECT_DIR$/parents/common/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parents/common/src/main/java/ys/springcloud/MainClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="5" lean-forward="false" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StreamRabbitMQSelf/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="6" column="18" lean-forward="false" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StreamRabbitMQSelf/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="28" column="22" lean-forward="false" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StreamRabbitMQSelf/src/main/java/com/StreamRabbitMQSelf/StreamRabbitMQSelfApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="6" column="6" lean-forward="false" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parents/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="20" lean-forward="false" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parents/api-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="30" lean-forward="false" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parents/api-member-service-impl/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parents/api-service/api-member-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="20" lean-forward="false" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parents/api-service/api-member-service/src/main/java/ys/springcloud/api/service/IMemberService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="11" column="11" lean-forward="false" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parents/common/src/main/java/ys/springcloud/base/ResponseBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/apache/maven/maven-plugin-api/3.3.9/maven-plugin-api-3.3.9.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1385">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-maven-plugin/2.1.1.RELEASE/spring-boot-maven-plugin-2.1.1.RELEASE.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="87" column="48" lean-forward="true" selection-start-line="87" selection-start-column="48" selection-end-line="87" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1121">
+          <caret line="60" column="11" lean-forward="false" selection-start-line="60" selection-start-column="11" selection-end-line="60" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://MAVEN/ys.springcloud:stream-consumer:1.0-SNAPSHOT">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MAVEN</ID>
+          <OriginalElement>ys.springcloud:stream-consumer:1.0-SNAPSHOT</OriginalElement>
+          <nodes>
+            <node x="0.0" y="722.3983698629355">ys.springcloud:stream-consumer:1.0-SNAPSHOT</node>
+            <node x="244.0" y="1193.0858698629354">org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE</node>
+            <node x="1781.5" y="1500.8358698629354">org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.1.RELEASE</node>
+            <node x="2349.5" y="1422.6410856715531">org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot:jar:2.1.1.RELEASE</node>
+            <node x="2054.5" y="1397.1410856715531">org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-autoconfigure:jar:2.1.1.RELEASE</node>
+            <node x="2051.0" y="1581.1410856715531">org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.1.1.RELEASE</node>
+            <node x="2340.0" y="1504.9504100336283">org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.1.1.RELEASE/ch.qos.logback:logback-classic:jar:1.2.3</node>
+            <node x="2558.0" y="1497.4504100336283">org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.1.1.RELEASE/ch.qos.logback:logback-classic:jar:1.2.3/ch.qos.logback:logback-core:jar:1.2.3</node>
+            <node x="2347.5" y="1675.5771815049322">org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.1.1.RELEASE/org.apache.logging.log4j:log4j-to-slf4j:jar:2.11.1</node>
+            <node x="2571.0" y="1683.0771815049322">org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.1.1.RELEASE/org.apache.logging.log4j:log4j-to-slf4j:jar:2.11.1/org.apache.logging.log4j:log4j-api:jar:2.11.1</node>
+            <node x="2355.5" y="1574.9504100336283">org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.1.1.RELEASE/org.slf4j:jul-to-slf4j:jar:1.7.25</node>
+            <node x="2074.0" y="1651.1410856715531">org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.1.RELEASE/javax.annotation:javax.annotation-api:jar:1.3.2</node>
+            <node x="2102.0" y="1511.1410856715531">org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.1.RELEASE/org.yaml:snakeyaml:jar:1.23</node>
+            <node x="887.5" y="1239.3358698629354">org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.1.1.RELEASE</node>
+            <node x="2082.0" y="1164.4504100336283">org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.1.1.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.9.7</node>
+            <node x="2326.0" y="1147.9504100336283">org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.1.1.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.9.7/com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0</node>
+            <node x="2347.0" y="1242.517857142857">org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.1.1.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.9.7/com.fasterxml.jackson.core:jackson-core:jar:2.9.7</node>
+            <node x="1773.0" y="1300.3910856715531">org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.1.1.RELEASE/com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.9.7</node>
+            <node x="1768.0" y="1160.3910856715531">org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.1.1.RELEASE/com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.9.7</node>
+            <node x="1737.0" y="1230.3910856715531">org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.1.1.RELEASE/com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.9.7</node>
+            <node x="550.0" y="1410.3358698629354">org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.1.1.RELEASE</node>
+            <node x="1204.5" y="1346.1410856715531">org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.1.1.RELEASE/org.apache.tomcat.embed:tomcat-embed-core:jar:9.0.13</node>
+            <node x="1787.5" y="1371.6410856715531">org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.1.1.RELEASE/org.apache.tomcat.embed:tomcat-embed-el:jar:9.0.13</node>
+            <node x="882.0" y="1353.6410856715531">org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.1.1.RELEASE/org.apache.tomcat.embed:tomcat-embed-websocket:jar:9.0.13</node>
+            <node x="1782.5" y="835.9608698629355">org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.hibernate.validator:hibernate-validator:jar:6.0.13.Final</node>
+            <node x="2093.0" y="815.2004100336283">org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.hibernate.validator:hibernate-validator:jar:6.0.13.Final/javax.validation:validation-api:jar:2.0.1.Final</node>
+            <node x="2092.0" y="745.2004100336283">org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.hibernate.validator:hibernate-validator:jar:6.0.13.Final/org.jboss.logging:jboss-logging:jar:3.3.2.Final</node>
+            <node x="2104.0" y="885.2004100336283">org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.hibernate.validator:hibernate-validator:jar:6.0.13.Final/com.fasterxml:classmate:jar:1.4.0</node>
+            <node x="1230.0" y="1111.4504100336283">org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework:spring-web:jar:5.1.3.RELEASE</node>
+            <node x="2968.0" y="996.8254100336283">org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework:spring-web:jar:5.1.3.RELEASE/org.springframework:spring-beans:jar:5.1.3.RELEASE</node>
+            <node x="914.0" y="1057.8928571428573">org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework:spring-webmvc:jar:5.1.3.RELEASE</node>
+            <node x="2771.0" y="961.7004100336283">org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework:spring-webmvc:jar:5.1.3.RELEASE/org.springframework:spring-aop:jar:5.1.3.RELEASE</node>
+            <node x="2555.0" y="990.9504100336283">org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework:spring-webmvc:jar:5.1.3.RELEASE/org.springframework:spring-context:jar:5.1.3.RELEASE</node>
+            <node x="2751.0" y="1056.4504100336283">org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework:spring-webmvc:jar:5.1.3.RELEASE/org.springframework:spring-expression:jar:5.1.3.RELEASE</node>
+            <node x="1203.5" y="199.70218150493224">org.springframework.cloud:spring-cloud-stream:jar:2.1.0.RC4</node>
+            <node x="1451.0" y="509.13239731355">org.springframework.cloud:spring-cloud-stream:jar:2.1.0.RC4/org.springframework.boot:spring-boot-starter-validation:jar:2.1.1.RELEASE</node>
+            <node x="2080.0" y="314.25739731355">org.springframework.cloud:spring-cloud-stream:jar:2.1.0.RC4/org.springframework:spring-messaging:jar:5.1.3.RELEASE</node>
+            <node x="1770.0" y="25.25">org.springframework.cloud:spring-cloud-stream:jar:2.1.0.RC4/org.springframework.integration:spring-integration-core:jar:5.1.1.RELEASE</node>
+            <node x="2777.5" y="314.25739731355">org.springframework.cloud:spring-cloud-stream:jar:2.1.0.RC4/org.springframework.integration:spring-integration-core:jar:5.1.1.RELEASE/org.springframework:spring-tx:jar:5.1.3.RELEASE</node>
+            <node x="2096.0" y="46.83586986293551">org.springframework.cloud:spring-cloud-stream:jar:2.1.0.RC4/org.springframework.integration:spring-integration-core:jar:5.1.1.RELEASE/io.projectreactor:reactor-core:jar:3.2.3.RELEASE</node>
+            <node x="1473.0" y="3.5">org.springframework.cloud:spring-cloud-stream:jar:2.1.0.RC4/org.springframework.integration:spring-integration-jmx:jar:5.1.1.RELEASE</node>
+            <node x="1802.5" y="390.3928571428572">org.springframework.cloud:spring-cloud-stream:jar:2.1.0.RC4/org.springframework:spring-tuple:jar:1.0.0.RELEASE</node>
+            <node x="2095.5" y="427.63239731355">org.springframework.cloud:spring-cloud-stream:jar:2.1.0.RC4/org.springframework:spring-tuple:jar:1.0.0.RELEASE/com.esotericsoftware:kryo-shaded:jar:3.0.3</node>
+            <node x="2364.5" y="392.63239731355">org.springframework.cloud:spring-cloud-stream:jar:2.1.0.RC4/org.springframework:spring-tuple:jar:1.0.0.RELEASE/com.esotericsoftware:kryo-shaded:jar:3.0.3/com.esotericsoftware:minlog:jar:1.3.0</node>
+            <node x="2357.0" y="462.63239731355">org.springframework.cloud:spring-cloud-stream:jar:2.1.0.RC4/org.springframework:spring-tuple:jar:1.0.0.RELEASE/com.esotericsoftware:kryo-shaded:jar:3.0.3/org.objenesis:objenesis:jar:2.1</node>
+            <node x="1468.5" y="244.25739731354997">org.springframework.cloud:spring-cloud-stream:jar:2.1.0.RC4/org.springframework.integration:spring-integration-tuple:jar:1.0.0.RELEASE</node>
+            <node x="2098.0" y="159.3358698629355">org.springframework.cloud:spring-cloud-stream:jar:2.1.0.RC4/org.springframework.retry:spring-retry:jar:1.2.2.RELEASE</node>
+            <node x="1452.0" y="314.25739731355">org.springframework.cloud:spring-cloud-stream:jar:2.1.0.RC4/org.springframework.cloud:spring-cloud-function-context:jar:2.0.0.RC3</node>
+            <node x="1760.0" y="139.39285714285722">org.springframework.cloud:spring-cloud-stream:jar:2.1.0.RC4/org.springframework.cloud:spring-cloud-function-context:jar:2.0.0.RC3/org.springframework.cloud:spring-cloud-function-core:jar:2.0.0.RC3</node>
+            <node x="214.0" y="248.2733698629355">org.springframework.cloud:spring-cloud-starter-stream-rabbit:jar:2.1.0.RC4</node>
+            <node x="528.0" y="235.5233698629355">org.springframework.cloud:spring-cloud-stream-binder-rabbit:jar:2.1.0.RC4</node>
+            <node x="842.0" y="610.7021815049322">org.springframework.cloud:spring-cloud-stream-binder-rabbit:jar:2.1.0.RC4/org.springframework.cloud:spring-cloud-stream-binder-rabbit-core:jar:2.1.0.RC4</node>
+            <node x="1236.5" y="608.2021815049322">org.springframework.cloud:spring-cloud-stream-binder-rabbit:jar:2.1.0.RC4/org.springframework.cloud:spring-cloud-stream-binder-rabbit-core:jar:2.1.0.RC4/org.apache.httpcomponents:httpclient:jar:4.5.6</node>
+            <node x="1513.5" y="649.13239731355">org.springframework.cloud:spring-cloud-stream-binder-rabbit:jar:2.1.0.RC4/org.springframework.cloud:spring-cloud-stream-binder-rabbit-core:jar:2.1.0.RC4/org.apache.httpcomponents:httpclient:jar:4.5.6/org.apache.httpcomponents:httpcore:jar:4.4.10</node>
+            <node x="1489.5" y="579.13239731355">org.springframework.cloud:spring-cloud-stream-binder-rabbit:jar:2.1.0.RC4/org.springframework.cloud:spring-cloud-stream-binder-rabbit-core:jar:2.1.0.RC4/org.apache.httpcomponents:httpclient:jar:4.5.6/commons-codec:commons-codec:jar:1.11</node>
+            <node x="1809.0" y="936.2004100336283">org.springframework.cloud:spring-cloud-stream-binder-rabbit:jar:2.1.0.RC4/org.springframework.cloud:spring-cloud-stream-binder-rabbit-core:jar:2.1.0.RC4/com.rabbitmq:http-client:jar:2.1.0.RELEASE</node>
+            <node x="1187.0" y="721.7021815049322">org.springframework.cloud:spring-cloud-stream-binder-rabbit:jar:2.1.0.RC4/org.springframework.boot:spring-boot-starter-amqp:jar:2.1.1.RELEASE</node>
+            <node x="1499.5" y="439.13239731355">org.springframework.cloud:spring-cloud-stream-binder-rabbit:jar:2.1.0.RC4/org.springframework.boot:spring-boot-starter-amqp:jar:2.1.1.RELEASE/org.springframework.amqp:spring-rabbit:jar:2.1.2.RELEASE</node>
+            <node x="1800.0" y="258.1428571428572">org.springframework.cloud:spring-cloud-stream-binder-rabbit:jar:2.1.0.RC4/org.springframework.boot:spring-boot-starter-amqp:jar:2.1.1.RELEASE/org.springframework.amqp:spring-rabbit:jar:2.1.2.RELEASE/org.springframework.amqp:spring-amqp:jar:2.1.2.RELEASE</node>
+            <node x="2350.0" y="910.7004100336283">org.springframework.cloud:spring-cloud-stream-binder-rabbit:jar:2.1.0.RC4/org.springframework.boot:spring-boot-starter-amqp:jar:2.1.1.RELEASE/org.springframework.amqp:spring-rabbit:jar:2.1.2.RELEASE/com.rabbitmq:amqp-client:jar:5.4.3</node>
+            <node x="1191.0" y="289.70041003362826">org.springframework.cloud:spring-cloud-stream-binder-rabbit:jar:2.1.0.RC4/org.springframework.integration:spring-integration-amqp:jar:5.1.1.RELEASE</node>
+            <node x="245.5" y="1945.0858698629354">org.springframework.boot:spring-boot-starter-test:jar:2.1.1.RELEASE</node>
+            <node x="910.5" y="1701.3358698629354">org.springframework.boot:spring-boot-starter-test:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-test:jar:2.1.1.RELEASE</node>
+            <node x="538.0" y="1683.3358698629354">org.springframework.boot:spring-boot-starter-test:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-test-autoconfigure:jar:2.1.1.RELEASE</node>
+            <node x="601.5" y="1961.5771815049322">org.springframework.boot:spring-boot-starter-test:jar:2.1.1.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0</node>
+            <node x="927.5" y="1979.5771815049322">org.springframework.boot:spring-boot-starter-test:jar:2.1.1.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/net.minidev:json-smart:jar:2.3</node>
+            <node x="1215.5" y="1979.5771815049322">org.springframework.boot:spring-boot-starter-test:jar:2.1.1.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/net.minidev:json-smart:jar:2.3/net.minidev:accessors-smart:jar:1.2</node>
+            <node x="1526.0" y="1979.5771815049322">org.springframework.boot:spring-boot-starter-test:jar:2.1.1.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/net.minidev:json-smart:jar:2.3/net.minidev:accessors-smart:jar:1.2/org.ow2.asm:asm:jar:5.0.4</node>
+            <node x="2574.0" y="1574.9504100336283">org.springframework.boot:spring-boot-starter-test:jar:2.1.1.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/org.slf4j:slf4j-api:jar:1.7.25</node>
+            <node x="617.0" y="2057.327181504932">org.springframework.boot:spring-boot-starter-test:jar:2.1.1.RELEASE/junit:junit:jar:4.12</node>
+            <node x="594.5" y="1752.3358698629354">org.springframework.boot:spring-boot-starter-test:jar:2.1.1.RELEASE/org.assertj:assertj-core:jar:3.11.1</node>
+            <node x="590.0" y="1822.3358698629354">org.springframework.boot:spring-boot-starter-test:jar:2.1.1.RELEASE/org.mockito:mockito-core:jar:2.23.4</node>
+            <node x="925.0" y="1910.5771815049322">org.springframework.boot:spring-boot-starter-test:jar:2.1.1.RELEASE/org.mockito:mockito-core:jar:2.23.4/net.bytebuddy:byte-buddy:jar:1.9.5</node>
+            <node x="906.0" y="1840.5771815049322">org.springframework.boot:spring-boot-starter-test:jar:2.1.1.RELEASE/org.mockito:mockito-core:jar:2.23.4/net.bytebuddy:byte-buddy-agent:jar:1.9.5</node>
+            <node x="931.0" y="1770.5771815049322">org.springframework.boot:spring-boot-starter-test:jar:2.1.1.RELEASE/org.mockito:mockito-core:jar:2.23.4/org.objenesis:objenesis:jar:2.6</node>
+            <node x="916.5" y="2049.577181504932">org.springframework.boot:spring-boot-starter-test:jar:2.1.1.RELEASE/org.hamcrest:hamcrest-core:jar:1.3</node>
+            <node x="581.5" y="2127.327181504932">org.springframework.boot:spring-boot-starter-test:jar:2.1.1.RELEASE/org.hamcrest:hamcrest-library:jar:1.3</node>
+            <node x="599.5" y="2178.327181504932">org.springframework.boot:spring-boot-starter-test:jar:2.1.1.RELEASE/org.skyscreamer:jsonassert:jar:1.5.0</node>
+            <node x="921.0" y="2178.327181504932">org.springframework.boot:spring-boot-starter-test:jar:2.1.1.RELEASE/org.skyscreamer:jsonassert:jar:1.5.0/com.vaadin.external.google:android-json:jar:0.0.20131108.vaadin1</node>
+            <node x="3157.0" y="974.88239731355">org.springframework.boot:spring-boot-starter-test:jar:2.1.1.RELEASE/org.springframework:spring-core:jar:5.1.3.RELEASE</node>
+            <node x="3337.0" y="974.88239731355">org.springframework.boot:spring-boot-starter-test:jar:2.1.1.RELEASE/org.springframework:spring-core:jar:5.1.3.RELEASE/org.springframework:spring-jcl:jar:5.1.3.RELEASE</node>
+            <node x="2975.0" y="2152.827181504932">org.springframework.boot:spring-boot-starter-test:jar:2.1.1.RELEASE/org.springframework:spring-test:jar:5.1.3.RELEASE</node>
+            <node x="593.0" y="2248.327181504932">org.springframework.boot:spring-boot-starter-test:jar:2.1.1.RELEASE/org.xmlunit:xmlunit-core:jar:2.6.2</node>
+            <node x="292.5" y="2015.0858698629354">com.alibaba:fastjson:jar:1.2.56</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework:spring-webmvc:jar:5.1.3.RELEASE/org.springframework:spring-expression:jar:5.1.3.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.1.RELEASE/org.springframework:spring-core:jar:5.1.3.RELEASE">
+              <point x="68.5" y="-0.0" />
+              <point x="3077.0" y="1071.4504100336283" />
+              <point x="-50.0" y="3.5294117647058556" />
+            </edge>
+            <edge source="org.springframework.cloud:spring-cloud-stream:jar:2.1.0.RC4/org.springframework.cloud:spring-cloud-function-context:jar:2.0.0.RC3" target="org.springframework.cloud:spring-cloud-stream:jar:2.1.0.RC4/org.springframework.cloud:spring-cloud-function-context:jar:2.0.0.RC3/org.springframework.cloud:spring-cloud-function-core:jar:2.0.0.RC3">
+              <point x="102.0" y="-10.0" />
+              <point x="1737.0" y="154.39285714285722" />
+              <point x="-94.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework.cloud:spring-cloud-stream-binder-rabbit:jar:2.1.0.RC4" target="org.springframework.cloud:spring-cloud-stream-binder-rabbit:jar:2.1.0.RC4/org.springframework.boot:spring-boot-starter-amqp:jar:2.1.1.RELEASE">
+              <point x="117.0" y="12.5" />
+              <point x="842.0" y="744.2021815049322" />
+              <point x="-92.0" y="7.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.1.1.RELEASE/org.mockito:mockito-core:jar:2.23.4" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.1.RELEASE/org.mockito:mockito-core:jar:2.23.4/org.objenesis:objenesis:jar:2.6">
+              <point x="55.0" y="-10.0" />
+              <point x="762.0" y="1827.3358698629354" />
+              <point x="842.0" y="1785.5771815049322" />
+              <point x="-43.5" y="-0.0" />
+            </edge>
+            <edge source="org.springframework.cloud:spring-cloud-starter-stream-rabbit:jar:2.1.0.RC4" target="org.springframework.cloud:spring-cloud-stream-binder-rabbit:jar:2.1.0.RC4">
+              <point x="117.0" y="-0.0" />
+              <point x="-117.0" y="7.5" />
+            </edge>
+            <edge source="org.springframework.cloud:spring-cloud-stream-binder-rabbit:jar:2.1.0.RC4/org.springframework.boot:spring-boot-starter-amqp:jar:2.1.1.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.1.RELEASE">
+              <point x="92.0" y="10.0" />
+              <point x="1451.0" y="797.9608698629355" />
+              <point x="1657.0" y="797.9608698629355" />
+              <point x="1737.0" y="1509.8358698629354" />
+              <point x="-72.5" y="-6.0" />
+            </edge>
+            <edge source="org.springframework.cloud:spring-cloud-stream:jar:2.1.0.RC4/org.springframework.cloud:spring-cloud-function-context:jar:2.0.0.RC3/org.springframework.cloud:spring-cloud-function-core:jar:2.0.0.RC3" target="org.springframework.cloud:spring-cloud-stream:jar:2.1.0.RC4/org.springframework.integration:spring-integration-core:jar:5.1.1.RELEASE/io.projectreactor:reactor-core:jar:3.2.3.RELEASE">
+              <point x="94.0" y="-7.5" />
+              <point x="1971.0" y="146.89285714285722" />
+              <point x="2051.0" y="69.33586986293551" />
+              <point x="-52.5" y="7.5" />
+            </edge>
+            <edge source="org.springframework.cloud:spring-cloud-stream-binder-rabbit:jar:2.1.0.RC4/org.springframework.boot:spring-boot-starter-amqp:jar:2.1.1.RELEASE/org.springframework.amqp:spring-rabbit:jar:2.1.2.RELEASE" target="org.springframework.cloud:spring-cloud-stream:jar:2.1.0.RC4/org.springframework.integration:spring-integration-core:jar:5.1.1.RELEASE/org.springframework:spring-tx:jar:5.1.3.RELEASE">
+              <point x="54.5" y="-0.0" />
+              <point x="1657.0" y="454.13239731355" />
+              <point x="1737.0" y="728.7004100336283" />
+              <point x="2671.0" y="728.7004100336283" />
+              <point x="2751.0" y="336.75739731355" />
+              <point x="-42.0" y="7.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.1.1.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.1.RELEASE/org.springframework:spring-core:jar:5.1.3.RELEASE">
+              <point x="85.5" y="-2.3076923076923777" />
+              <point x="448.0" y="1957.778177555243" />
+              <point x="528.0" y="1951.0771815049322" />
+              <point x="3077.0" y="1951.0771815049322" />
+              <point x="-50.0" y="12.352941176470608" />
+            </edge>
+            <edge source="org.springframework.cloud:spring-cloud-stream:jar:2.1.0.RC4" target="org.springframework.cloud:spring-cloud-stream:jar:2.1.0.RC4/org.springframework.cloud:spring-cloud-function-context:jar:2.0.0.RC3">
+              <point x="75.5" y="5.625" />
+              <point x="1371.0" y="220.32718150493224" />
+              <point x="-102.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework.cloud:spring-cloud-stream-binder-rabbit:jar:2.1.0.RC4/org.springframework.boot:spring-boot-starter-amqp:jar:2.1.1.RELEASE/org.springframework.amqp:spring-rabbit:jar:2.1.2.RELEASE" target="org.springframework.cloud:spring-cloud-stream-binder-rabbit:jar:2.1.0.RC4/org.springframework.boot:spring-boot-starter-amqp:jar:2.1.1.RELEASE/org.springframework.amqp:spring-rabbit:jar:2.1.2.RELEASE/com.rabbitmq:amqp-client:jar:5.4.3">
+              <point x="54.5" y="12.0" />
+              <point x="1657.0" y="466.13239731355" />
+              <point x="1737.0" y="925.7004100336283" />
+              <point x="-50.5" y="-0.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.1.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.1.RELEASE/org.springframework:spring-core:jar:5.1.3.RELEASE">
+              <point x="72.5" y="-2.5" />
+              <point x="1971.0" y="1513.3358698629354" />
+              <point x="2051.0" y="1463.1410856715531" />
+              <point x="3077.0" y="1463.1410856715531" />
+              <point x="-50.0" y="10.58823529411768" />
+            </edge>
+            <edge source="org.springframework.cloud:spring-cloud-stream-binder-rabbit:jar:2.1.0.RC4/org.springframework.integration:spring-integration-amqp:jar:5.1.1.RELEASE" target="org.springframework.cloud:spring-cloud-stream:jar:2.1.0.RC4/org.springframework.integration:spring-integration-core:jar:5.1.1.RELEASE">
+              <point x="88.0" y="-7.5" />
+              <point x="1451.0" y="218.33035714285722" />
+              <point x="1657.0" y="218.33035714285722" />
+              <point x="1737.0" y="46.250000000000114" />
+              <point x="-84.0" y="6.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.1.1.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.1.1.RELEASE/org.apache.logging.log4j:log4j-to-slf4j:jar:2.11.1">
+              <point x="97.5" y="10.0" />
+              <point x="2326.0" y="1690.5771815049322" />
+              <point x="-53.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.1.1.RELEASE/com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.9.7" target="org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.1.1.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.9.7/com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0">
+              <point x="86.0" y="-10.0" />
+              <point x="1971.0" y="1165.3910856715531" />
+              <point x="2051.0" y="1153.9504100336283" />
+              <point x="2246.0" y="1153.9504100336283" />
+              <point x="-74.5" y="-7.5" />
+            </edge>
+            <edge source="org.springframework.cloud:spring-cloud-stream:jar:2.1.0.RC4/org.springframework.boot:spring-boot-starter-validation:jar:2.1.1.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.1.1.RELEASE/org.apache.tomcat.embed:tomcat-embed-el:jar:9.0.13">
+              <point x="103.0" y="-0.0" />
+              <point x="1737.0" y="1379.1410856715531" />
+              <point x="-66.5" y="-7.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.1.1.RELEASE/com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.9.7" target="org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.1.1.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.9.7">
+              <point x="86.0" y="-0.0" />
+              <point x="1971.0" y="1175.3910856715531" />
+              <point x="2051.0" y="1181.9504100336283" />
+              <point x="-66.5" y="2.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.hibernate.validator:hibernate-validator:jar:6.0.13.Final">
+              <point x="87.0" y="-12.5" />
+              <point x="448.0" y="1195.5858698629354" />
+              <point x="528.0" y="858.4608698629355" />
+              <point x="-71.5" y="7.5" />
+            </edge>
+            <edge source="org.springframework.cloud:spring-cloud-stream-binder-rabbit:jar:2.1.0.RC4/org.springframework.boot:spring-boot-starter-amqp:jar:2.1.1.RELEASE/org.springframework.amqp:spring-rabbit:jar:2.1.2.RELEASE" target="org.springframework.cloud:spring-cloud-stream-binder-rabbit:jar:2.1.0.RC4/org.springframework.boot:spring-boot-starter-amqp:jar:2.1.1.RELEASE/org.springframework.amqp:spring-rabbit:jar:2.1.2.RELEASE/org.springframework.amqp:spring-amqp:jar:2.1.2.RELEASE">
+              <point x="54.5" y="-12.0" />
+              <point x="1657.0" y="442.13239731355" />
+              <point x="1737.0" y="273.1428571428572" />
+              <point x="-54.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.1.1.RELEASE/org.mockito:mockito-core:jar:2.23.4" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.1.RELEASE/org.mockito:mockito-core:jar:2.23.4/net.bytebuddy:byte-buddy-agent:jar:1.9.5">
+              <point x="55.0" y="-0.0" />
+              <point x="762.0" y="1837.3358698629354" />
+              <point x="842.0" y="1855.5771815049322" />
+              <point x="-68.5" y="-0.0" />
+            </edge>
+            <edge source="org.springframework.cloud:spring-cloud-stream:jar:2.1.0.RC4/org.springframework.integration:spring-integration-core:jar:5.1.1.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework:spring-webmvc:jar:5.1.3.RELEASE/org.springframework:spring-aop:jar:5.1.3.RELEASE">
+              <point x="84.0" y="-4.285714285714334" />
+              <point x="1971.0" y="35.96428571428578" />
+              <point x="2051.0" y="29.10714285714289" />
+              <point x="2671.0" y="29.10714285714289" />
+              <point x="2751.0" y="966.7004100336283" />
+              <point x="-48.5" y="-10.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.1.1.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.9.7" target="org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.1.1.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.9.7/com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0">
+              <point x="66.5" y="-7.5" />
+              <point x="-74.5" y="7.5" />
+            </edge>
+            <edge source="org.springframework.cloud:spring-cloud-stream-binder-rabbit:jar:2.1.0.RC4/org.springframework.cloud:spring-cloud-stream-binder-rabbit-core:jar:2.1.0.RC4" target="org.springframework.cloud:spring-cloud-stream-binder-rabbit:jar:2.1.0.RC4/org.springframework.cloud:spring-cloud-stream-binder-rabbit-core:jar:2.1.0.RC4/com.rabbitmq:http-client:jar:2.1.0.RELEASE">
+              <point x="132.5" y="2.5" />
+              <point x="1187.0" y="689.63239731355" />
+              <point x="1657.0" y="689.63239731355" />
+              <point x="1737.0" y="951.2004100336283" />
+              <point x="-45.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework.cloud:spring-cloud-stream:jar:2.1.0.RC4/org.springframework:spring-tuple:jar:1.0.0.RELEASE/com.esotericsoftware:kryo-shaded:jar:3.0.3" target="org.springframework.cloud:spring-cloud-stream:jar:2.1.0.RC4/org.springframework:spring-tuple:jar:1.0.0.RELEASE/com.esotericsoftware:kryo-shaded:jar:3.0.3/org.objenesis:objenesis:jar:2.1">
+              <point x="53.0" y="7.5" />
+              <point x="2246.0" y="450.13239731355" />
+              <point x="2326.0" y="477.63239731355" />
+              <point x="-43.5" y="-0.0" />
+            </edge>
+            <edge source="org.springframework.cloud:spring-cloud-stream:jar:2.1.0.RC4/org.springframework.integration:spring-integration-core:jar:5.1.1.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework:spring-webmvc:jar:5.1.3.RELEASE/org.springframework:spring-context:jar:5.1.3.RELEASE">
+              <point x="84.0" y="-0.0" />
+              <point x="1971.0" y="40.250000000000114" />
+              <point x="2051.0" y="33.392857142857224" />
+              <point x="2475.0" y="33.392857142857224" />
+              <point x="-58.0" y="-12.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.1.1.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.1.1.RELEASE/org.apache.tomcat.embed:tomcat-embed-core:jar:9.0.13">
+              <point x="95.0" y="-11.25" />
+              <point x="762.0" y="1414.0858698629354" />
+              <point x="842.0" y="1343.1410856715531" />
+              <point x="1107.0" y="1343.1410856715531" />
+              <point x="1187.0" y="1353.6410856715531" />
+              <point x="-74.5" y="-7.5" />
+            </edge>
+            <edge source="org.springframework.cloud:spring-cloud-stream:jar:2.1.0.RC4/org.springframework.integration:spring-integration-core:jar:5.1.1.RELEASE/org.springframework:spring-tx:jar:5.1.3.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.1.RELEASE/org.springframework:spring-core:jar:5.1.3.RELEASE">
+              <point x="42.0" y="-7.5" />
+              <point x="3077.0" y="321.75739731355" />
+              <point x="-50.0" y="-7.058823529411825" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.1.1.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.1.RELEASE/org.mockito:mockito-core:jar:2.23.4">
+              <point x="85.5" y="-4.615384615384528" />
+              <point x="448.0" y="1955.4704852475509" />
+              <point x="528.0" y="1837.3358698629354" />
+              <point x="-55.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework.cloud:spring-cloud-stream-binder-rabbit:jar:2.1.0.RC4/org.springframework.boot:spring-boot-starter-amqp:jar:2.1.1.RELEASE/org.springframework.amqp:spring-rabbit:jar:2.1.2.RELEASE/org.springframework.amqp:spring-amqp:jar:2.1.2.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.1.RELEASE/org.springframework:spring-core:jar:5.1.3.RELEASE">
+              <point x="54.0" y="7.5" />
+              <point x="1971.0" y="280.6428571428572" />
+              <point x="2051.0" y="373.00739731355" />
+              <point x="3077.0" y="373.00739731355" />
+              <point x="-50.0" y="-5.294117647058783" />
+            </edge>
+            <edge source="org.springframework.cloud:spring-cloud-stream:jar:2.1.0.RC4/org.springframework:spring-tuple:jar:1.0.0.RELEASE" target="org.springframework.cloud:spring-cloud-stream:jar:2.1.0.RC4/org.springframework:spring-tuple:jar:1.0.0.RELEASE/com.esotericsoftware:kryo-shaded:jar:3.0.3">
+              <point x="51.5" y="-11.25" />
+              <point x="1971.0" y="394.1428571428572" />
+              <point x="2051.0" y="442.63239731355" />
+              <point x="-53.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.1.1.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.1.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0">
+              <point x="85.5" y="-0.0" />
+              <point x="448.0" y="1960.0858698629354" />
+              <point x="528.0" y="1976.5771815049322" />
+              <point x="-43.5" y="-0.0" />
+            </edge>
+            <edge source="org.springframework.cloud:spring-cloud-stream:jar:2.1.0.RC4/org.springframework.boot:spring-boot-starter-validation:jar:2.1.1.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.1.RELEASE">
+              <point x="103.0" y="10.0" />
+              <point x="1737.0" y="1503.8358698629354" />
+              <point x="-72.5" y="-12.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.1.1.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.1.RELEASE/org.assertj:assertj-core:jar:3.11.1">
+              <point x="85.5" y="-6.923076923076906" />
+              <point x="448.0" y="1953.1627929398585" />
+              <point x="528.0" y="1767.3358698629354" />
+              <point x="-50.5" y="-0.0" />
+            </edge>
+            <edge source="org.springframework.cloud:spring-cloud-stream:jar:2.1.0.RC4/org.springframework.integration:spring-integration-core:jar:5.1.1.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.1.RELEASE/org.springframework:spring-core:jar:5.1.3.RELEASE">
+              <point x="84.0" y="-12.857142857142776" />
+              <point x="1971.0" y="27.392857142857338" />
+              <point x="2051.0" y="20.535714285714448" />
+              <point x="3077.0" y="20.535714285714448" />
+              <point x="-50.0" y="-14.117647058823536" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.1.1.RELEASE/org.slf4j:jul-to-slf4j:jar:1.7.25" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.1.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/org.slf4j:slf4j-api:jar:1.7.25">
+              <point x="45.0" y="-0.0" />
+              <point x="-39.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework.cloud:spring-cloud-stream-binder-rabbit:jar:2.1.0.RC4/org.springframework.cloud:spring-cloud-stream-binder-rabbit-core:jar:2.1.0.RC4" target="org.springframework.cloud:spring-cloud-stream-binder-rabbit:jar:2.1.0.RC4/org.springframework.cloud:spring-cloud-stream-binder-rabbit-core:jar:2.1.0.RC4/org.apache.httpcomponents:httpclient:jar:4.5.6">
+              <point x="132.5" y="-2.5" />
+              <point x="-42.5" y="-0.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework:spring-webmvc:jar:5.1.3.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework:spring-webmvc:jar:5.1.3.RELEASE/org.springframework:spring-expression:jar:5.1.3.RELEASE">
+              <point x="60.5" y="2.5" />
+              <point x="1107.0" y="1075.3928571428573" />
+              <point x="1187.0" y="1078.9504100336283" />
+              <point x="-68.5" y="7.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.1.1.RELEASE/org.springframework:spring-test:jar:5.1.3.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.1.RELEASE/org.springframework:spring-core:jar:5.1.3.RELEASE">
+              <point x="47.5" y="-0.0" />
+              <point x="-50.0" y="14.117647058823536" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.1.1.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework:spring-web:jar:5.1.3.RELEASE">
+              <point x="87.0" y="-12.5" />
+              <point x="1107.0" y="1241.8358698629354" />
+              <point x="1187.0" y="1137.7004100336283" />
+              <point x="-49.0" y="11.25" />
+            </edge>
+            <edge source="org.springframework.cloud:spring-cloud-stream-binder-rabbit:jar:2.1.0.RC4/org.springframework.integration:spring-integration-amqp:jar:5.1.1.RELEASE" target="org.springframework.cloud:spring-cloud-stream-binder-rabbit:jar:2.1.0.RC4/org.springframework.boot:spring-boot-starter-amqp:jar:2.1.1.RELEASE/org.springframework.amqp:spring-rabbit:jar:2.1.2.RELEASE">
+              <point x="88.0" y="7.5" />
+              <point x="1451.0" y="446.63239731355" />
+              <point x="-54.5" y="-7.5" />
+            </edge>
+            <edge source="org.springframework.cloud:spring-cloud-stream:jar:2.1.0.RC4/org.springframework.integration:spring-integration-jmx:jar:5.1.1.RELEASE" target="org.springframework.cloud:spring-cloud-stream:jar:2.1.0.RC4/org.springframework.integration:spring-integration-core:jar:5.1.1.RELEASE">
+              <point x="81.0" y="-0.0" />
+              <point x="1657.0" y="18.5" />
+              <point x="1737.0" y="28.25" />
+              <point x="-84.0" y="-12.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.1.1.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.1.RELEASE/org.springframework:spring-test:jar:5.1.3.RELEASE">
+              <point x="85.5" y="9.230769230769283" />
+              <point x="448.0" y="1969.3166390937047" />
+              <point x="528.0" y="2167.827181504932" />
+              <point x="-47.5" y="-0.0" />
+            </edge>
+            <edge source="org.springframework.cloud:spring-cloud-stream-binder-rabbit:jar:2.1.0.RC4/org.springframework.boot:spring-boot-starter-amqp:jar:2.1.1.RELEASE/org.springframework.amqp:spring-rabbit:jar:2.1.2.RELEASE" target="org.springframework.cloud:spring-cloud-stream:jar:2.1.0.RC4/org.springframework:spring-messaging:jar:5.1.3.RELEASE">
+              <point x="54.5" y="-6.0" />
+              <point x="1657.0" y="448.13239731355" />
+              <point x="1737.0" y="492.88239731355" />
+              <point x="1971.0" y="492.88239731355" />
+              <point x="2051.0" y="335.25739731355" />
+              <point x="-68.5" y="6.0" />
+            </edge>
+            <edge source="org.springframework.cloud:spring-cloud-stream:jar:2.1.0.RC4/org.springframework.boot:spring-boot-starter-validation:jar:2.1.1.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.hibernate.validator:hibernate-validator:jar:6.0.13.Final">
+              <point x="103.0" y="-10.0" />
+              <point x="1737.0" y="843.4608698629355" />
+              <point x="-71.5" y="-7.5" />
+            </edge>
+            <edge source="org.springframework.cloud:spring-cloud-stream:jar:2.1.0.RC4/org.springframework.integration:spring-integration-core:jar:5.1.1.RELEASE" target="org.springframework.cloud:spring-cloud-stream:jar:2.1.0.RC4/org.springframework.integration:spring-integration-core:jar:5.1.1.RELEASE/org.springframework:spring-tx:jar:5.1.3.RELEASE">
+              <point x="84.0" y="-8.571428571428555" />
+              <point x="1971.0" y="31.67857142857156" />
+              <point x="2051.0" y="24.82142857142867" />
+              <point x="2671.0" y="24.82142857142867" />
+              <point x="2751.0" y="321.75739731355" />
+              <point x="-42.0" y="-7.5" />
+            </edge>
+            <edge source="org.springframework.cloud:spring-cloud-stream-binder-rabbit:jar:2.1.0.RC4/org.springframework.cloud:spring-cloud-stream-binder-rabbit-core:jar:2.1.0.RC4/org.apache.httpcomponents:httpclient:jar:4.5.6" target="org.springframework.cloud:spring-cloud-stream-binder-rabbit:jar:2.1.0.RC4/org.springframework.cloud:spring-cloud-stream-binder-rabbit-core:jar:2.1.0.RC4/org.apache.httpcomponents:httpclient:jar:4.5.6/org.apache.httpcomponents:httpcore:jar:4.4.10">
+              <point x="42.5" y="7.5" />
+              <point x="1371.0" y="630.7021815049322" />
+              <point x="1451.0" y="664.13239731355" />
+              <point x="-40.5" y="-0.0" />
+            </edge>
+            <edge source="org.springframework.cloud:spring-cloud-stream:jar:2.1.0.RC4" target="org.springframework.cloud:spring-cloud-stream:jar:2.1.0.RC4/org.springframework.boot:spring-boot-starter-validation:jar:2.1.1.RELEASE">
+              <point x="75.5" y="13.125" />
+              <point x="1371.0" y="227.82718150493224" />
+              <point x="-103.0" y="-0.0" />
+            </edge>
+            <edge source="ys.springcloud:stream-consumer:1.0-SNAPSHOT" target="org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE">
+              <point x="67.0" y="2.5" />
+              <point x="214.0" y="1208.0858698629354" />
+              <point x="-87.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.1.1.RELEASE/com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.9.7" target="org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.1.1.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.9.7/com.fasterxml.jackson.core:jackson-core:jar:2.9.7">
+              <point x="81.0" y="7.5" />
+              <point x="2246.0" y="1322.8910856715531" />
+              <point x="2326.0" y="1268.767857142857" />
+              <point x="-53.5" y="11.25" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.1.1.RELEASE/org.apache.logging.log4j:log4j-to-slf4j:jar:2.11.1" target="org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.1.1.RELEASE/org.apache.logging.log4j:log4j-to-slf4j:jar:2.11.1/org.apache.logging.log4j:log4j-api:jar:2.11.1">
+              <point x="53.0" y="7.5" />
+              <point x="-42.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.1.1.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.1.RELEASE/org.xmlunit:xmlunit-core:jar:2.6.2">
+              <point x="85.5" y="13.846153846153811" />
+              <point x="448.0" y="1973.9320237090892" />
+              <point x="528.0" y="2263.327181504932" />
+              <point x="-52.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework.cloud:spring-cloud-stream-binder-rabbit:jar:2.1.0.RC4/org.springframework.cloud:spring-cloud-stream-binder-rabbit-core:jar:2.1.0.RC4" target="org.springframework.cloud:spring-cloud-stream-binder-rabbit:jar:2.1.0.RC4/org.springframework.boot:spring-boot-starter-amqp:jar:2.1.1.RELEASE">
+              <point x="132.5" y="7.5" />
+              <point x="-92.0" y="-7.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.1.1.RELEASE">
+              <point x="87.0" y="2.5" />
+              <point x="448.0" y="1210.5858698629354" />
+              <point x="528.0" y="1254.3358698629354" />
+              <point x="-87.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.1.1.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.1.RELEASE/junit:junit:jar:4.12">
+              <point x="85.5" y="4.615384615384528" />
+              <point x="448.0" y="1964.70125447832" />
+              <point x="528.0" y="2072.327181504932" />
+              <point x="-28.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.1.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot:jar:2.1.1.RELEASE">
+              <point x="72.5" y="-7.5" />
+              <point x="1971.0" y="1508.3358698629354" />
+              <point x="2051.0" y="1437.6410856715531" />
+              <point x="-51.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework:spring-webmvc:jar:5.1.3.RELEASE/org.springframework:spring-context:jar:5.1.3.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework:spring-web:jar:5.1.3.RELEASE/org.springframework:spring-beans:jar:5.1.3.RELEASE">
+              <point x="58.0" y="-3.75" />
+              <point x="2888.0" y="1002.2004100336283" />
+              <point x="-54.5" y="2.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.1.1.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.1.1.RELEASE/org.apache.tomcat.embed:tomcat-embed-el:jar:9.0.13">
+              <point x="95.0" y="3.75" />
+              <point x="762.0" y="1429.0858698629354" />
+              <point x="842.0" y="1394.1410856715531" />
+              <point x="-66.5" y="7.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.1.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.1.RELEASE/javax.annotation:javax.annotation-api:jar:1.3.2">
+              <point x="72.5" y="12.5" />
+              <point x="1971.0" y="1528.3358698629354" />
+              <point x="2051.0" y="1658.6410856715531" />
+              <point x="-74.5" y="-7.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework:spring-web:jar:5.1.3.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.1.RELEASE/org.springframework:spring-core:jar:5.1.3.RELEASE">
+              <point x="49.0" y="7.5" />
+              <point x="1371.0" y="1133.9504100336283" />
+              <point x="1451.0" y="1137.4504100336283" />
+              <point x="3077.0" y="1137.4504100336283" />
+              <point x="-50.0" y="7.058823529411711" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.hibernate.validator:hibernate-validator:jar:6.0.13.Final" target="org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.hibernate.validator:hibernate-validator:jar:6.0.13.Final/org.jboss.logging:jboss-logging:jar:3.3.2.Final">
+              <point x="71.5" y="-10.0" />
+              <point x="1971.0" y="840.9608698629355" />
+              <point x="2051.0" y="760.2004100336283" />
+              <point x="-56.5" y="-0.0" />
+            </edge>
+            <edge source="org.springframework.cloud:spring-cloud-stream:jar:2.1.0.RC4" target="org.springframework.cloud:spring-cloud-stream:jar:2.1.0.RC4/org.springframework.integration:spring-integration-jmx:jar:5.1.1.RELEASE">
+              <point x="75.5" y="-13.125" />
+              <point x="1371.0" y="201.57718150493224" />
+              <point x="1451.0" y="26.0" />
+              <point x="-81.0" y="7.5" />
+            </edge>
+            <edge source="org.springframework.cloud:spring-cloud-stream:jar:2.1.0.RC4" target="org.springframework.cloud:spring-cloud-stream:jar:2.1.0.RC4/org.springframework:spring-tuple:jar:1.0.0.RELEASE">
+              <point x="75.5" y="9.375" />
+              <point x="1371.0" y="224.07718150493224" />
+              <point x="1451.0" y="424.63239731355" />
+              <point x="1657.0" y="424.63239731355" />
+              <point x="1737.0" y="412.8928571428572" />
+              <point x="-51.5" y="7.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework:spring-webmvc:jar:5.1.3.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework:spring-webmvc:jar:5.1.3.RELEASE/org.springframework:spring-aop:jar:5.1.3.RELEASE">
+              <point x="60.5" y="-12.5" />
+              <point x="1107.0" y="1060.3928571428573" />
+              <point x="1187.0" y="976.7004100336283" />
+              <point x="-48.5" y="-0.0" />
+            </edge>
+            <edge source="org.springframework.cloud:spring-cloud-stream-binder-rabbit:jar:2.1.0.RC4" target="org.springframework.cloud:spring-cloud-stream:jar:2.1.0.RC4/org.springframework.integration:spring-integration-core:jar:5.1.1.RELEASE">
+              <point x="117.0" y="-7.5" />
+              <point x="842.0" y="44.000000000000114" />
+              <point x="1657.0" y="44.000000000000114" />
+              <point x="1737.0" y="34.250000000000114" />
+              <point x="-84.0" y="-6.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework:spring-web:jar:5.1.3.RELEASE">
+              <point x="87.0" y="-2.5" />
+              <point x="448.0" y="1205.5858698629354" />
+              <point x="528.0" y="1130.2004100336283" />
+              <point x="-49.0" y="3.75" />
+            </edge>
+            <edge source="org.springframework.cloud:spring-cloud-stream:jar:2.1.0.RC4/org.springframework:spring-tuple:jar:1.0.0.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework:spring-webmvc:jar:5.1.3.RELEASE/org.springframework:spring-context:jar:5.1.3.RELEASE">
+              <point x="51.5" y="3.75" />
+              <point x="1971.0" y="409.1428571428572" />
+              <point x="2051.0" y="510.63239731355" />
+              <point x="2475.0" y="510.63239731355" />
+              <point x="-58.0" y="-6.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-autoconfigure:jar:2.1.1.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot:jar:2.1.1.RELEASE">
+              <point x="94.0" y="-0.0" />
+              <point x="2326.0" y="1427.6410856715531" />
+              <point x="-51.0" y="-10.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.1.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.1.1.RELEASE">
+              <point x="72.5" y="7.5" />
+              <point x="1971.0" y="1523.3358698629354" />
+              <point x="-97.5" y="-0.0" />
+            </edge>
+            <edge source="org.springframework.cloud:spring-cloud-stream:jar:2.1.0.RC4/org.springframework.integration:spring-integration-tuple:jar:1.0.0.RELEASE" target="org.springframework.cloud:spring-cloud-stream:jar:2.1.0.RC4/org.springframework.integration:spring-integration-core:jar:5.1.1.RELEASE">
+              <point x="85.5" y="-7.5" />
+              <point x="1657.0" y="251.75739731354997" />
+              <point x="1737.0" y="52.250000000000114" />
+              <point x="-84.0" y="12.0" />
+            </edge>
+            <edge source="ys.springcloud:stream-consumer:1.0-SNAPSHOT" target="org.springframework.cloud:spring-cloud-stream:jar:2.1.0.RC4">
+              <point x="67.0" y="-12.5" />
+              <point x="214.0" y="0.0" />
+              <point x="1107.0" y="0.0" />
+              <point x="1187.0" y="204.70218150493224" />
+              <point x="-75.5" y="-10.0" />
+            </edge>
+            <edge source="ys.springcloud:stream-consumer:1.0-SNAPSHOT" target="org.springframework.cloud:spring-cloud-starter-stream-rabbit:jar:2.1.0.RC4">
+              <point x="67.0" y="-2.5" />
+              <point x="-117.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.1.RELEASE">
+              <point x="87.0" y="7.5" />
+              <point x="448.0" y="1215.5858698629354" />
+              <point x="528.0" y="1332.1410856715531" />
+              <point x="1657.0" y="1332.1410856715531" />
+              <point x="1737.0" y="1521.8358698629354" />
+              <point x="-72.5" y="6.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework:spring-webmvc:jar:5.1.3.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework:spring-webmvc:jar:5.1.3.RELEASE/org.springframework:spring-context:jar:5.1.3.RELEASE">
+              <point x="60.5" y="-7.5" />
+              <point x="1107.0" y="1065.3928571428573" />
+              <point x="1187.0" y="1011.1410856715531" />
+              <point x="-58.0" y="6.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.1.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.1.RELEASE/org.yaml:snakeyaml:jar:1.23">
+              <point x="72.5" y="2.5" />
+              <point x="1971.0" y="1518.3358698629354" />
+              <point x="2051.0" y="1526.1410856715531" />
+              <point x="-46.5" y="-0.0" />
+            </edge>
+            <edge source="org.springframework.cloud:spring-cloud-stream:jar:2.1.0.RC4" target="org.springframework.cloud:spring-cloud-stream:jar:2.1.0.RC4/org.springframework.retry:spring-retry:jar:1.2.2.RELEASE">
+              <point x="75.5" y="-5.625" />
+              <point x="1371.0" y="209.07718150493224" />
+              <point x="1451.0" y="128.89285714285722" />
+              <point x="1971.0" y="128.89285714285722" />
+              <point x="2051.0" y="174.3358698629355" />
+              <point x="-50.5" y="-0.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.1.1.RELEASE/org.apache.tomcat.embed:tomcat-embed-websocket:jar:9.0.13" target="org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.1.1.RELEASE/org.apache.tomcat.embed:tomcat-embed-core:jar:9.0.13">
+              <point x="92.5" y="-0.0" />
+              <point x="-74.5" y="7.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework:spring-webmvc:jar:5.1.3.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework:spring-web:jar:5.1.3.RELEASE">
+              <point x="60.5" y="12.5" />
+              <point x="1107.0" y="1085.3928571428573" />
+              <point x="1187.0" y="1122.7004100336283" />
+              <point x="-49.0" y="-3.75" />
+            </edge>
+            <edge source="org.springframework.cloud:spring-cloud-stream:jar:2.1.0.RC4/org.springframework:spring-messaging:jar:5.1.3.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.1.RELEASE/org.springframework:spring-core:jar:5.1.3.RELEASE">
+              <point x="68.5" y="-7.5" />
+              <point x="2246.0" y="321.75739731355" />
+              <point x="2326.0" y="303.75739731355" />
+              <point x="3077.0" y="303.75739731355" />
+              <point x="-50.0" y="-8.823529411764753" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.1.1.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.1.RELEASE">
+              <point x="85.5" y="-9.230769230769283" />
+              <point x="448.0" y="1950.855100632166" />
+              <point x="528.0" y="1741.8358698629354" />
+              <point x="1657.0" y="1741.8358698629354" />
+              <point x="1737.0" y="1527.8358698629354" />
+              <point x="-72.5" y="12.0" />
+            </edge>
+            <edge source="org.springframework.cloud:spring-cloud-stream:jar:2.1.0.RC4/org.springframework.integration:spring-integration-core:jar:5.1.1.RELEASE" target="org.springframework.cloud:spring-cloud-stream:jar:2.1.0.RC4/org.springframework:spring-messaging:jar:5.1.3.RELEASE">
+              <point x="84.0" y="12.857142857142854" />
+              <point x="1971.0" y="53.107142857143" />
+              <point x="2051.0" y="317.25739731355" />
+              <point x="-68.5" y="-12.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework:spring-webmvc:jar:5.1.3.RELEASE/org.springframework:spring-aop:jar:5.1.3.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework:spring-web:jar:5.1.3.RELEASE/org.springframework:spring-beans:jar:5.1.3.RELEASE">
+              <point x="48.5" y="7.5" />
+              <point x="2888.0" y="984.2004100336283" />
+              <point x="-54.5" y="-2.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.1.1.RELEASE/com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.9.7" target="org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.1.1.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.9.7">
+              <point x="81.0" y="-7.5" />
+              <point x="1971.0" y="1307.8910856715531" />
+              <point x="2051.0" y="1191.9504100336283" />
+              <point x="-66.5" y="12.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-test:jar:2.1.1.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot:jar:2.1.1.RELEASE">
+              <point x="64.0" y="-0.0" />
+              <point x="2246.0" y="1716.3358698629354" />
+              <point x="2326.0" y="1447.6410856715531" />
+              <point x="-51.0" y="10.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework:spring-webmvc:jar:5.1.3.RELEASE/org.springframework:spring-context:jar:5.1.3.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework:spring-webmvc:jar:5.1.3.RELEASE/org.springframework:spring-aop:jar:5.1.3.RELEASE">
+              <point x="58.0" y="-11.25" />
+              <point x="2751.0" y="986.7004100336283" />
+              <point x="-48.5" y="10.0" />
+            </edge>
+            <edge source="org.springframework.cloud:spring-cloud-stream:jar:2.1.0.RC4/org.springframework.cloud:spring-cloud-function-context:jar:2.0.0.RC3/org.springframework.cloud:spring-cloud-function-core:jar:2.0.0.RC3" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.1.RELEASE/org.springframework:spring-core:jar:5.1.3.RELEASE">
+              <point x="94.0" y="7.5" />
+              <point x="1971.0" y="161.89285714285722" />
+              <point x="2051.0" y="265.07718150493224" />
+              <point x="3077.0" y="265.07718150493224" />
+              <point x="-50.0" y="-10.58823529411768" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-test-autoconfigure:jar:2.1.1.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-autoconfigure:jar:2.1.1.RELEASE">
+              <point x="107.0" y="-7.5" />
+              <point x="1657.0" y="1690.8358698629354" />
+              <point x="1737.0" y="1412.1410856715531" />
+              <point x="-94.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework:spring-webmvc:jar:5.1.3.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework:spring-web:jar:5.1.3.RELEASE/org.springframework:spring-beans:jar:5.1.3.RELEASE">
+              <point x="60.5" y="-2.5" />
+              <point x="1107.0" y="1070.3928571428573" />
+              <point x="1187.0" y="1031.4504100336283" />
+              <point x="2888.0" y="1031.4504100336283" />
+              <point x="-54.5" y="7.5" />
+            </edge>
+            <edge source="org.springframework.cloud:spring-cloud-stream-binder-rabbit:jar:2.1.0.RC4/org.springframework.cloud:spring-cloud-stream-binder-rabbit-core:jar:2.1.0.RC4" target="org.springframework.cloud:spring-cloud-stream-binder-rabbit:jar:2.1.0.RC4/org.springframework.integration:spring-integration-amqp:jar:5.1.1.RELEASE">
+              <point x="132.5" y="-7.5" />
+              <point x="-88.0" y="7.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.1.1.RELEASE/org.hamcrest:hamcrest-library:jar:1.3" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.1.RELEASE/org.hamcrest:hamcrest-core:jar:1.3">
+              <point x="63.5" y="-0.0" />
+              <point x="762.0" y="2142.327181504932" />
+              <point x="842.0" y="2074.577181504932" />
+              <point x="-58.0" y="10.0" />
+            </edge>
+            <edge source="org.springframework.cloud:spring-cloud-stream-binder-rabbit:jar:2.1.0.RC4/org.springframework.boot:spring-boot-starter-amqp:jar:2.1.1.RELEASE/org.springframework.amqp:spring-rabbit:jar:2.1.2.RELEASE/org.springframework.amqp:spring-amqp:jar:2.1.2.RELEASE" target="org.springframework.cloud:spring-cloud-stream:jar:2.1.0.RC4/org.springframework.retry:spring-retry:jar:1.2.2.RELEASE">
+              <point x="54.0" y="-7.5" />
+              <point x="1971.0" y="265.6428571428572" />
+              <point x="2051.0" y="184.3358698629355" />
+              <point x="-50.5" y="10.0" />
+            </edge>
+            <edge source="org.springframework.cloud:spring-cloud-stream:jar:2.1.0.RC4/org.springframework.retry:spring-retry:jar:1.2.2.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.1.RELEASE/org.springframework:spring-core:jar:5.1.3.RELEASE">
+              <point x="50.5" y="-0.0" />
+              <point x="3077.0" y="174.3358698629355" />
+              <point x="-50.0" y="-12.352941176470608" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.hibernate.validator:hibernate-validator:jar:6.0.13.Final" target="org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.hibernate.validator:hibernate-validator:jar:6.0.13.Final/com.fasterxml:classmate:jar:1.4.0">
+              <point x="71.5" y="10.0" />
+              <point x="1971.0" y="860.9608698629355" />
+              <point x="2051.0" y="900.2004100336283" />
+              <point x="-44.5" y="-0.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.1.1.RELEASE/org.apache.logging.log4j:log4j-to-slf4j:jar:2.11.1" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.1.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/org.slf4j:slf4j-api:jar:1.7.25">
+              <point x="53.0" y="-7.5" />
+              <point x="2475.0" y="1683.0771815049322" />
+              <point x="2555.0" y="1595.9504100336283" />
+              <point x="-39.0" y="6.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.1.1.RELEASE/com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.9.7" target="org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.1.1.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.9.7">
+              <point x="117.0" y="-7.5" />
+              <point x="2051.0" y="1186.9504100336283" />
+              <point x="-66.5" y="7.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.1.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-autoconfigure:jar:2.1.1.RELEASE">
+              <point x="72.5" y="-12.5" />
+              <point x="1971.0" y="1503.3358698629354" />
+              <point x="-94.0" y="10.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.1.1.RELEASE/ch.qos.logback:logback-classic:jar:1.2.3" target="org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.1.1.RELEASE/ch.qos.logback:logback-classic:jar:1.2.3/ch.qos.logback:logback-core:jar:1.2.3">
+              <point x="60.5" y="-7.5" />
+              <point x="-55.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework.cloud:spring-cloud-stream-binder-rabbit:jar:2.1.0.RC4/org.springframework.boot:spring-boot-starter-amqp:jar:2.1.1.RELEASE/org.springframework.amqp:spring-rabbit:jar:2.1.2.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework:spring-webmvc:jar:5.1.3.RELEASE/org.springframework:spring-context:jar:5.1.3.RELEASE">
+              <point x="54.5" y="6.0" />
+              <point x="1657.0" y="460.13239731355" />
+              <point x="1737.0" y="734.7004100336283" />
+              <point x="2475.0" y="734.7004100336283" />
+              <point x="-58.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot:jar:2.1.1.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.1.RELEASE/org.springframework:spring-core:jar:5.1.3.RELEASE">
+              <point x="51.0" y="7.5" />
+              <point x="3077.0" y="1445.1410856715531" />
+              <point x="-50.0" y="8.823529411764753" />
+            </edge>
+            <edge source="org.springframework.cloud:spring-cloud-stream-binder-rabbit:jar:2.1.0.RC4/org.springframework.cloud:spring-cloud-stream-binder-rabbit-core:jar:2.1.0.RC4/org.apache.httpcomponents:httpclient:jar:4.5.6" target="org.springframework.cloud:spring-cloud-stream-binder-rabbit:jar:2.1.0.RC4/org.springframework.cloud:spring-cloud-stream-binder-rabbit-core:jar:2.1.0.RC4/org.apache.httpcomponents:httpclient:jar:4.5.6/commons-codec:commons-codec:jar:1.11">
+              <point x="42.5" y="-7.5" />
+              <point x="1371.0" y="615.7021815049322" />
+              <point x="1451.0" y="594.13239731355" />
+              <point x="-64.5" y="-0.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.1.1.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.9.7" target="org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.1.1.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.9.7/com.fasterxml.jackson.core:jackson-core:jar:2.9.7">
+              <point x="66.5" y="7.5" />
+              <point x="2246.0" y="1186.9504100336283" />
+              <point x="2326.0" y="1246.267857142857" />
+              <point x="-53.5" y="-11.25" />
+            </edge>
+            <edge source="org.springframework.cloud:spring-cloud-stream:jar:2.1.0.RC4" target="org.springframework.cloud:spring-cloud-stream:jar:2.1.0.RC4/org.springframework:spring-messaging:jar:5.1.3.RELEASE">
+              <point x="75.5" y="-1.875" />
+              <point x="1371.0" y="212.82718150493224" />
+              <point x="1451.0" y="180.64285714285722" />
+              <point x="1971.0" y="180.64285714285722" />
+              <point x="2051.0" y="323.25739731355" />
+              <point x="-68.5" y="-6.0" />
+            </edge>
+            <edge source="org.springframework.cloud:spring-cloud-stream:jar:2.1.0.RC4/org.springframework.integration:spring-integration-core:jar:5.1.1.RELEASE/org.springframework:spring-tx:jar:5.1.3.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework:spring-web:jar:5.1.3.RELEASE/org.springframework:spring-beans:jar:5.1.3.RELEASE">
+              <point x="42.0" y="7.5" />
+              <point x="2888.0" y="336.75739731355" />
+              <point x="-54.5" y="-12.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.1.1.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.1.1.RELEASE/org.apache.tomcat.embed:tomcat-embed-websocket:jar:9.0.13">
+              <point x="95.0" y="-3.75" />
+              <point x="762.0" y="1421.5858698629354" />
+              <point x="842.0" y="1368.6410856715531" />
+              <point x="-92.5" y="-0.0" />
+            </edge>
+            <edge source="ys.springcloud:stream-consumer:1.0-SNAPSHOT" target="com.alibaba:fastjson:jar:1.2.56">
+              <point x="67.0" y="12.5" />
+              <point x="214.0" y="2030.0858698629354" />
+              <point x="-38.5" y="-0.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.1.1.RELEASE/com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.9.7" target="org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.1.1.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.9.7/com.fasterxml.jackson.core:jackson-core:jar:2.9.7">
+              <point x="86.0" y="10.0" />
+              <point x="1971.0" y="1185.3910856715531" />
+              <point x="2051.0" y="1239.8254100336283" />
+              <point x="2246.0" y="1239.8254100336283" />
+              <point x="2326.0" y="1253.767857142857" />
+              <point x="-53.5" y="-3.75" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.1.1.RELEASE">
+              <point x="87.0" y="12.5" />
+              <point x="448.0" y="1220.5858698629354" />
+              <point x="528.0" y="1425.3358698629354" />
+              <point x="-95.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.1.1.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.1.RELEASE/javax.annotation:javax.annotation-api:jar:1.3.2">
+              <point x="95.0" y="11.25" />
+              <point x="762.0" y="1436.5858698629354" />
+              <point x="842.0" y="1673.6410856715531" />
+              <point x="-74.5" y="7.5" />
+            </edge>
+            <edge source="org.springframework.cloud:spring-cloud-stream:jar:2.1.0.RC4/org.springframework:spring-tuple:jar:1.0.0.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.1.1.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.9.7">
+              <point x="51.5" y="11.25" />
+              <point x="1971.0" y="416.6428571428572" />
+              <point x="2051.0" y="1166.9504100336283" />
+              <point x="-66.5" y="-12.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot:jar:2.1.1.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework:spring-webmvc:jar:5.1.3.RELEASE/org.springframework:spring-context:jar:5.1.3.RELEASE">
+              <point x="51.0" y="-7.5" />
+              <point x="2475.0" y="1430.1410856715531" />
+              <point x="-58.0" y="12.0" />
+            </edge>
+            <edge source="org.springframework.cloud:spring-cloud-stream-binder-rabbit:jar:2.1.0.RC4/org.springframework.boot:spring-boot-starter-amqp:jar:2.1.1.RELEASE/org.springframework.amqp:spring-rabbit:jar:2.1.2.RELEASE/com.rabbitmq:amqp-client:jar:5.4.3" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.1.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/org.slf4j:slf4j-api:jar:1.7.25">
+              <point x="50.5" y="-0.0" />
+              <point x="2475.0" y="925.7004100336283" />
+              <point x="2555.0" y="1577.9504100336283" />
+              <point x="-39.0" y="-12.0" />
+            </edge>
+            <edge source="org.springframework.cloud:spring-cloud-stream-binder-rabbit:jar:2.1.0.RC4/org.springframework.cloud:spring-cloud-stream-binder-rabbit-core:jar:2.1.0.RC4" target="org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework:spring-web:jar:5.1.3.RELEASE">
+              <point x="132.5" y="12.5" />
+              <point x="1187.0" y="1115.2004100336283" />
+              <point x="-49.0" y="-11.25" />
+            </edge>
+            <edge source="org.springframework.cloud:spring-cloud-stream-binder-rabbit:jar:2.1.0.RC4" target="org.springframework.cloud:spring-cloud-stream-binder-rabbit:jar:2.1.0.RC4/org.springframework.integration:spring-integration-amqp:jar:5.1.1.RELEASE">
+              <point x="117.0" y="2.5" />
+              <point x="842.0" y="297.20041003362826" />
+              <point x="-88.0" y="-7.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework:spring-webmvc:jar:5.1.3.RELEASE/org.springframework:spring-aop:jar:5.1.3.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.1.RELEASE/org.springframework:spring-core:jar:5.1.3.RELEASE">
+              <point x="48.5" y="-7.5" />
+              <point x="3077.0" y="969.2004100336283" />
+              <point x="-50.0" y="-1.7647058823529278" />
+            </edge>
+            <edge source="org.springframework.cloud:spring-cloud-stream:jar:2.1.0.RC4" target="org.springframework.cloud:spring-cloud-stream:jar:2.1.0.RC4/org.springframework.integration:spring-integration-tuple:jar:1.0.0.RELEASE">
+              <point x="75.5" y="1.875" />
+              <point x="1371.0" y="216.57718150493224" />
+              <point x="1451.0" y="259.25739731355" />
+              <point x="-85.5" y="-0.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.1.1.RELEASE/com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.9.7" target="org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.1.1.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.9.7/com.fasterxml.jackson.core:jackson-core:jar:2.9.7">
+              <point x="117.0" y="7.5" />
+              <point x="2246.0" y="1252.8910856715531" />
+              <point x="2326.0" y="1261.267857142857" />
+              <point x="-53.5" y="3.75" />
+            </edge>
+            <edge source="ys.springcloud:stream-consumer:1.0-SNAPSHOT" target="org.springframework.cloud:spring-cloud-stream-binder-rabbit:jar:2.1.0.RC4">
+              <point x="67.0" y="-7.5" />
+              <point x="214.0" y="237.7733698629355" />
+              <point x="448.0" y="237.7733698629355" />
+              <point x="-117.0" y="-7.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.1.1.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.1.RELEASE">
+              <point x="87.0" y="12.5" />
+              <point x="1107.0" y="1266.8358698629354" />
+              <point x="1187.0" y="1322.6410856715531" />
+              <point x="1657.0" y="1322.6410856715531" />
+              <point x="1737.0" y="1515.8358698629354" />
+              <point x="-72.5" y="-0.0" />
+            </edge>
+            <edge source="org.springframework.cloud:spring-cloud-stream:jar:2.1.0.RC4/org.springframework.integration:spring-integration-core:jar:5.1.1.RELEASE" target="org.springframework.cloud:spring-cloud-stream:jar:2.1.0.RC4/org.springframework.integration:spring-integration-core:jar:5.1.1.RELEASE/io.projectreactor:reactor-core:jar:3.2.3.RELEASE">
+              <point x="84.0" y="4.285714285714285" />
+              <point x="1971.0" y="44.53571428571445" />
+              <point x="2051.0" y="54.33586986293551" />
+              <point x="-52.5" y="-7.5" />
+            </edge>
+            <edge source="org.springframework.cloud:spring-cloud-stream:jar:2.1.0.RC4/org.springframework.cloud:spring-cloud-function-context:jar:2.0.0.RC3" target="org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-autoconfigure:jar:2.1.1.RELEASE">
+              <point x="102.0" y="10.0" />
+              <point x="1737.0" y="1089.9504100336283" />
+              <point x="1971.0" y="1089.9504100336283" />
+              <point x="-94.0" y="-10.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.1.1.RELEASE/org.springframework:spring-core:jar:5.1.3.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.1.RELEASE/org.springframework:spring-core:jar:5.1.3.RELEASE/org.springframework:spring-jcl:jar:5.1.3.RELEASE">
+              <point x="50.0" y="-0.0" />
+              <point x="-43.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework.cloud:spring-cloud-stream:jar:2.1.0.RC4/org.springframework.integration:spring-integration-tuple:jar:1.0.0.RELEASE" target="org.springframework.cloud:spring-cloud-stream:jar:2.1.0.RC4/org.springframework:spring-tuple:jar:1.0.0.RELEASE">
+              <point x="85.5" y="7.5" />
+              <point x="1657.0" y="266.75739731355" />
+              <point x="1737.0" y="397.8928571428572" />
+              <point x="-51.5" y="-7.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.1.1.RELEASE/org.skyscreamer:jsonassert:jar:1.5.0" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.1.RELEASE/org.skyscreamer:jsonassert:jar:1.5.0/com.vaadin.external.google:android-json:jar:0.0.20131108.vaadin1">
+              <point x="45.5" y="-0.0" />
+              <point x="-53.5" y="-0.0" />
+            </edge>
+            <edge source="org.springframework.cloud:spring-cloud-stream:jar:2.1.0.RC4/org.springframework:spring-tuple:jar:1.0.0.RELEASE/com.esotericsoftware:kryo-shaded:jar:3.0.3" target="org.springframework.cloud:spring-cloud-stream:jar:2.1.0.RC4/org.springframework:spring-tuple:jar:1.0.0.RELEASE/com.esotericsoftware:kryo-shaded:jar:3.0.3/com.esotericsoftware:minlog:jar:1.3.0">
+              <point x="53.0" y="-7.5" />
+              <point x="2246.0" y="435.13239731355" />
+              <point x="2326.0" y="407.63239731355" />
+              <point x="-36.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework:spring-web:jar:5.1.3.RELEASE/org.springframework:spring-beans:jar:5.1.3.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.1.RELEASE/org.springframework:spring-core:jar:5.1.3.RELEASE">
+              <point x="54.5" y="-0.0" />
+              <point x="-50.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.1.1.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-test-autoconfigure:jar:2.1.1.RELEASE">
+              <point x="85.5" y="-13.846153846153811" />
+              <point x="448.0" y="1946.2397160167816" />
+              <point x="-107.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-test-autoconfigure:jar:2.1.1.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-test:jar:2.1.1.RELEASE">
+              <point x="107.0" y="7.5" />
+              <point x="842.0" y="1708.8358698629354" />
+              <point x="-64.0" y="-7.5" />
+            </edge>
+            <edge source="org.springframework.cloud:spring-cloud-stream:jar:2.1.0.RC4" target="org.springframework.cloud:spring-cloud-stream:jar:2.1.0.RC4/org.springframework.integration:spring-integration-core:jar:5.1.1.RELEASE">
+              <point x="75.5" y="-9.375" />
+              <point x="1371.0" y="205.32718150493224" />
+              <point x="1451.0" y="50.000000000000114" />
+              <point x="1657.0" y="50.000000000000114" />
+              <point x="1737.0" y="40.250000000000114" />
+              <point x="-84.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.1.1.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.1.RELEASE/org.skyscreamer:jsonassert:jar:1.5.0">
+              <point x="85.5" y="11.538461538461434" />
+              <point x="448.0" y="1971.6243314013968" />
+              <point x="528.0" y="2193.327181504932" />
+              <point x="-45.5" y="-0.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.1.1.RELEASE/junit:junit:jar:4.12" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.1.RELEASE/org.hamcrest:hamcrest-core:jar:1.3">
+              <point x="28.0" y="-0.0" />
+              <point x="762.0" y="2072.327181504932" />
+              <point x="842.0" y="2064.577181504932" />
+              <point x="-58.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.1.1.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-test:jar:2.1.1.RELEASE">
+              <point x="85.5" y="-11.538461538461434" />
+              <point x="448.0" y="1948.547408324474" />
+              <point x="528.0" y="1723.8358698629354" />
+              <point x="-64.0" y="7.5" />
+            </edge>
+            <edge source="org.springframework.cloud:spring-cloud-stream-binder-rabbit:jar:2.1.0.RC4" target="org.springframework.cloud:spring-cloud-stream:jar:2.1.0.RC4/org.springframework.integration:spring-integration-jmx:jar:5.1.1.RELEASE">
+              <point x="117.0" y="-12.5" />
+              <point x="842.0" y="11.0" />
+              <point x="-81.0" y="-7.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.1.1.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.1.1.RELEASE/com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.9.7">
+              <point x="87.0" y="2.5" />
+              <point x="1107.0" y="1256.8358698629354" />
+              <point x="1187.0" y="1245.3910856715531" />
+              <point x="-117.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.1.1.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.1.1.RELEASE/ch.qos.logback:logback-classic:jar:1.2.3">
+              <point x="97.5" y="-10.0" />
+              <point x="2326.0" y="1519.9504100336283" />
+              <point x="-60.5" y="-0.0" />
+            </edge>
+            <edge source="org.springframework.cloud:spring-cloud-stream-binder-rabbit:jar:2.1.0.RC4/org.springframework.cloud:spring-cloud-stream-binder-rabbit-core:jar:2.1.0.RC4/com.rabbitmq:http-client:jar:2.1.0.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.1.1.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.9.7">
+              <point x="45.0" y="-0.0" />
+              <point x="1971.0" y="951.2004100336283" />
+              <point x="2051.0" y="1171.9504100336283" />
+              <point x="-66.5" y="-7.5" />
+            </edge>
+            <edge source="org.springframework.cloud:spring-cloud-stream:jar:2.1.0.RC4/org.springframework:spring-tuple:jar:1.0.0.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.1.RELEASE/org.springframework:spring-core:jar:5.1.3.RELEASE">
+              <point x="51.5" y="-3.75" />
+              <point x="1971.0" y="401.6428571428572" />
+              <point x="2051.0" y="503.13239731355" />
+              <point x="3077.0" y="503.13239731355" />
+              <point x="-50.0" y="-3.5294117647058556" />
+            </edge>
+            <edge source="org.springframework.cloud:spring-cloud-stream:jar:2.1.0.RC4/org.springframework:spring-messaging:jar:5.1.3.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework:spring-web:jar:5.1.3.RELEASE/org.springframework:spring-beans:jar:5.1.3.RELEASE">
+              <point x="68.5" y="7.5" />
+              <point x="2246.0" y="336.75739731355" />
+              <point x="2326.0" y="354.75739731355" />
+              <point x="2888.0" y="354.75739731355" />
+              <point x="-54.5" y="-7.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework:spring-webmvc:jar:5.1.3.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.1.RELEASE/org.springframework:spring-core:jar:5.1.3.RELEASE">
+              <point x="60.5" y="7.5" />
+              <point x="1107.0" y="1080.3928571428573" />
+              <point x="1187.0" y="1100.9504100336283" />
+              <point x="3077.0" y="1100.9504100336283" />
+              <point x="-50.0" y="5.294117647058783" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework:spring-web:jar:5.1.3.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework:spring-web:jar:5.1.3.RELEASE/org.springframework:spring-beans:jar:5.1.3.RELEASE">
+              <point x="49.0" y="-7.5" />
+              <point x="1371.0" y="1118.9504100336283" />
+              <point x="1451.0" y="1115.4504100336283" />
+              <point x="2888.0" y="1115.4504100336283" />
+              <point x="-54.5" y="12.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.1.1.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.1.1.RELEASE/com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.9.7">
+              <point x="87.0" y="-2.5" />
+              <point x="1107.0" y="1251.8358698629354" />
+              <point x="1187.0" y="1175.3910856715531" />
+              <point x="-86.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.hibernate.validator:hibernate-validator:jar:6.0.13.Final" target="org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.hibernate.validator:hibernate-validator:jar:6.0.13.Final/javax.validation:validation-api:jar:2.0.1.Final">
+              <point x="71.5" y="-0.0" />
+              <point x="1971.0" y="850.9608698629355" />
+              <point x="2051.0" y="830.2004100336283" />
+              <point x="-55.5" y="-0.0" />
+            </edge>
+            <edge source="org.springframework.cloud:spring-cloud-stream-binder-rabbit:jar:2.1.0.RC4/org.springframework.cloud:spring-cloud-stream-binder-rabbit-core:jar:2.1.0.RC4" target="org.springframework.cloud:spring-cloud-stream:jar:2.1.0.RC4">
+              <point x="132.5" y="-12.5" />
+              <point x="1187.0" y="224.70218150493224" />
+              <point x="-75.5" y="10.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework:spring-webmvc:jar:5.1.3.RELEASE">
+              <point x="87.0" y="-7.5" />
+              <point x="448.0" y="1200.5858698629354" />
+              <point x="528.0" y="1072.8928571428573" />
+              <point x="-60.5" y="-0.0" />
+            </edge>
+            <edge source="org.springframework.cloud:spring-cloud-stream-binder-rabbit:jar:2.1.0.RC4/org.springframework.boot:spring-boot-starter-amqp:jar:2.1.1.RELEASE" target="org.springframework.cloud:spring-cloud-stream-binder-rabbit:jar:2.1.0.RC4/org.springframework.boot:spring-boot-starter-amqp:jar:2.1.1.RELEASE/org.springframework.amqp:spring-rabbit:jar:2.1.2.RELEASE">
+              <point x="92.0" y="-10.0" />
+              <point x="1451.0" y="461.63239731355" />
+              <point x="-54.5" y="7.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.1.1.RELEASE/org.mockito:mockito-core:jar:2.23.4" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.1.RELEASE/org.mockito:mockito-core:jar:2.23.4/net.bytebuddy:byte-buddy:jar:1.9.5">
+              <point x="55.0" y="10.0" />
+              <point x="762.0" y="1847.3358698629354" />
+              <point x="842.0" y="1925.5771815049322" />
+              <point x="-49.5" y="-0.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.1.1.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.1.1.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.9.7">
+              <point x="87.0" y="-7.5" />
+              <point x="1107.0" y="1246.8358698629354" />
+              <point x="1187.0" y="1170.3910856715531" />
+              <point x="1657.0" y="1170.3910856715531" />
+              <point x="1737.0" y="1126.4504100336283" />
+              <point x="1971.0" y="1126.4504100336283" />
+              <point x="2051.0" y="1176.9504100336283" />
+              <point x="-66.5" y="-2.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.1.1.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.1.RELEASE/org.hamcrest:hamcrest-library:jar:1.3">
+              <point x="85.5" y="6.923076923076906" />
+              <point x="448.0" y="1967.0089467860123" />
+              <point x="528.0" y="2142.327181504932" />
+              <point x="-63.5" y="-0.0" />
+            </edge>
+            <edge source="org.springframework.cloud:spring-cloud-stream-binder-rabbit:jar:2.1.0.RC4" target="org.springframework.cloud:spring-cloud-stream:jar:2.1.0.RC4">
+              <point x="117.0" y="-2.5" />
+              <point x="842.0" y="214.70218150493224" />
+              <point x="-75.5" y="-0.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework:spring-webmvc:jar:5.1.3.RELEASE/org.springframework:spring-context:jar:5.1.3.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.1.RELEASE/org.springframework:spring-core:jar:5.1.3.RELEASE">
+              <point x="58.0" y="3.75" />
+              <point x="2751.0" y="1045.9504100336283" />
+              <point x="3077.0" y="1045.9504100336283" />
+              <point x="-50.0" y="1.7647058823529278" />
+            </edge>
+            <edge source="org.springframework.cloud:spring-cloud-stream-binder-rabbit:jar:2.1.0.RC4" target="org.springframework.cloud:spring-cloud-stream-binder-rabbit:jar:2.1.0.RC4/org.springframework.cloud:spring-cloud-stream-binder-rabbit-core:jar:2.1.0.RC4">
+              <point x="117.0" y="7.5" />
+              <point x="-132.5" y="-0.0" />
+            </edge>
+            <edge source="ys.springcloud:stream-consumer:1.0-SNAPSHOT" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.1.RELEASE">
+              <point x="67.0" y="7.5" />
+              <point x="214.0" y="1960.0858698629354" />
+              <point x="-85.5" y="-0.0" />
+            </edge>
+            <edge source="org.springframework.cloud:spring-cloud-stream-binder-rabbit:jar:2.1.0.RC4/org.springframework.boot:spring-boot-starter-amqp:jar:2.1.1.RELEASE" target="org.springframework.cloud:spring-cloud-stream:jar:2.1.0.RC4/org.springframework:spring-messaging:jar:5.1.3.RELEASE">
+              <point x="92.0" y="-0.0" />
+              <point x="1451.0" y="707.88239731355" />
+              <point x="1971.0" y="707.88239731355" />
+              <point x="2051.0" y="341.25739731355" />
+              <point x="-68.5" y="12.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.1.1.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.1.RELEASE/org.hamcrest:hamcrest-core:jar:1.3">
+              <point x="85.5" y="2.3076923076923777" />
+              <point x="448.0" y="1962.3935621706278" />
+              <point x="528.0" y="2028.3271815049322" />
+              <point x="762.0" y="2028.3271815049322" />
+              <point x="842.0" y="2054.577181504932" />
+              <point x="-58.0" y="-10.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.1.1.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.1.1.RELEASE/org.slf4j:jul-to-slf4j:jar:1.7.25">
+              <point x="97.5" y="-0.0" />
+              <point x="2326.0" y="1589.9504100336283" />
+              <point x="-45.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.1.1.RELEASE/ch.qos.logback:logback-classic:jar:1.2.3" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.1.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/org.slf4j:slf4j-api:jar:1.7.25">
+              <point x="60.5" y="7.5" />
+              <point x="2475.0" y="1527.4504100336283" />
+              <point x="2555.0" y="1583.9504100336283" />
+              <point x="-39.0" y="-6.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework:spring-webmvc:jar:5.1.3.RELEASE/org.springframework:spring-context:jar:5.1.3.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework:spring-webmvc:jar:5.1.3.RELEASE/org.springframework:spring-expression:jar:5.1.3.RELEASE">
+              <point x="58.0" y="11.25" />
+              <point x="-68.5" y="-7.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.1.1.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.1.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/net.minidev:json-smart:jar:2.3">
+              <point x="43.5" y="7.5" />
+              <point x="762.0" y="1984.0771815049322" />
+              <point x="842.0" y="1994.5771815049322" />
+              <point x="-47.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.1.1.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.1.1.RELEASE/com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.9.7">
+              <point x="87.0" y="7.5" />
+              <point x="1107.0" y="1261.8358698629354" />
+              <point x="1187.0" y="1315.3910856715531" />
+              <point x="-81.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework.cloud:spring-cloud-stream:jar:2.1.0.RC4/org.springframework.cloud:spring-cloud-function-context:jar:2.0.0.RC3" target="org.springframework.cloud:spring-cloud-stream:jar:2.1.0.RC4/org.springframework:spring-messaging:jar:5.1.3.RELEASE">
+              <point x="102.0" y="-0.0" />
+              <point x="1737.0" y="236.89285714285722" />
+              <point x="1971.0" y="236.89285714285722" />
+              <point x="2051.0" y="329.25739731355" />
+              <point x="-68.5" y="-0.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.1.1.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/net.minidev:json-smart:jar:2.3" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.1.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/net.minidev:json-smart:jar:2.3/net.minidev:accessors-smart:jar:1.2">
+              <point x="47.0" y="-0.0" />
+              <point x="-63.5" y="-0.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.1.1.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.1.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/org.slf4j:slf4j-api:jar:1.7.25">
+              <point x="43.5" y="-7.5" />
+              <point x="2475.0" y="1969.0771815049322" />
+              <point x="2555.0" y="1601.9504100336283" />
+              <point x="-39.0" y="12.0" />
+            </edge>
+            <edge source="org.springframework.cloud:spring-cloud-stream:jar:2.1.0.RC4/org.springframework.integration:spring-integration-core:jar:5.1.1.RELEASE" target="org.springframework.cloud:spring-cloud-stream:jar:2.1.0.RC4/org.springframework.retry:spring-retry:jar:1.2.2.RELEASE">
+              <point x="84.0" y="8.57142857142857" />
+              <point x="1971.0" y="48.82142857142867" />
+              <point x="2051.0" y="164.3358698629355" />
+              <point x="-50.5" y="-10.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.1.1.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/net.minidev:json-smart:jar:2.3/net.minidev:accessors-smart:jar:1.2" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.1.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/net.minidev:json-smart:jar:2.3/net.minidev:accessors-smart:jar:1.2/org.ow2.asm:asm:jar:5.0.4">
+              <point x="63.5" y="-0.0" />
+              <point x="-28.0" y="-0.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.1544149630274032" x="1712.0" y="1180.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>All</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/src/main/java/test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/src/main/java/GeoHash.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="12" column="28" lean-forward="false" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>stream-producer</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+  <component name="mavenExecuteGoalHistory">
+    <option value="$PROJECT_DIR$" />
+    <option value="compile -rf :api-member-service" />
+    <option value="compile -e -X -rf :api-member-service" />
+    <option value="-e -X -rf :api-member-service" />
+    <option value="&lt;goals&gt; -e -X -rf :api-member-service" />
+    <option value="&lt;goals&gt; -rf -e -X :api-member-service" />
+    <option value="clean install -U" />
+  </component>
+</project>
